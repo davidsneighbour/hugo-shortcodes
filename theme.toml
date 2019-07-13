@@ -5,7 +5,7 @@ description = "Hugo shortcodes used in David's Neighbour's themes. Yes, double g
 homepage = "https://github.com/davidsneighbour/dnb-hugo-shortcodes"
 tags = ["shortcodes"]
 features = ["shortcodes"]
-min_version = "0.56"
+min_version = "0.55"
 
 [author]
   name = "Patrick Kollitsch"
