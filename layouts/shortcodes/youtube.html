@@ -1,0 +1,9 @@
+{{/*
+
+param 1: video slug
+
+*/}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+<div class="embed-responsive embed-responsive-16by9">
+  <div class="youtube-player" data-id="{{ $id }}"></div>
+</div>
