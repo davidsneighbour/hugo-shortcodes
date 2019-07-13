@@ -2,7 +2,7 @@
 
 Shortcodes I use in multiple themes for Hugo
 
-# How to use
+## How to use
 
 This is a theme component. You can add it to your regular theme by adding it **LEFT** of the theme in your `config.toml`.
 
@@ -20,8 +20,8 @@ theme = ["dnb-hugo-shortcodes", "mytheme"]
 
 To override shortcodes just add a file in your own shortcode directory with the name you want to replace.
 
-Read more about theme components at [https://gohugo.io/themes/theme-components/](https://gohugo.io/themes/theme-components/).
+[Read more about theme components](https://gohugo.io/themes/theme-components/).
 
-# Shortcodes
+## Shortcodes
 
 Documentation of the shortcodes this repository implements is forthcoming.
