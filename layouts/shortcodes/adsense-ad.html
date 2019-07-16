@@ -1,0 +1,27 @@
+{{/*
+
+    Either add only the ad slot id to the shortcode
+    
+    - `{{< adsense-ad 23423432 >}}`
+    
+    OR add parameters
+
+    - layout (for ad-layout, default is `in-article`)
+    - slot (for slot id)
+
+*/}}
+{{ if .IsNamedParams }}
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="{{ .Get "layout" | default "in-article" }}"  
+         data-ad-format="fluid"
+         data-ad-client="{{ .Site.Params.google.adclientid }}"
+         data-ad-slot="{{ .Get "slot" }}"></ins>
+{{ else }}
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="{{ .Site.Params.google.adclientid }}"
+         data-ad-slot="{{ .Get 0 }}"></ins>
+{{ end }}
