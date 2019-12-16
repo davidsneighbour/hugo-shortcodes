@@ -1,6 +1,5 @@
 {{/* see https://dev.to/stereobooster/responsive-images-for-hugo-dn9 for more information */}}
 
-
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 
