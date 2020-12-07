@@ -1,0 +1,34 @@
+{{/*
+see
+- https://web.dev/iframe-lazy-loading/ (not used in this shortcode, just for
+      learning purposes)
+- https://github.com/paulirish/lite-youtube-embed
+- https://developers.google.com/youtube/player_parameters#Parameters (check for
+      parameters that can be used with the youtube player)
+*/}}
+{{ $paramScratch := newScratch }}
+{{ $paramScratch.SetInMap "params" "modestbranding" 2 }}
+{{ $paramScratch.SetInMap "params" "iv_load_policy" 3 }}
+{{ $paramScratch.SetInMap "params" "controls" 0 }}
+{{ $paramScratch.SetInMap "params" "rel" 0 }}
+{{ $paramScratch.SetInMap "params" "hl" .Site.Language.Lang }}
+{{ $params := $paramScratch.Get "params" }}
+{{ $paramsCollected := "" }}
+{{ range $key, $value := $params }}
+    {{ $paramsCollected = printf "%s&%s=%s" $paramsCollected $key $value }}
+{{ end }}
+{{- $pc := .Page.Site.Config.Privacy.YouTube -}}
+{{- if not $pc.Disable -}}
+    {{- $id     := .Get "id"    | default (.Get 0) -}}
+    {{- $class  := .Get "class" | default (.Get 1) -}}
+    {{- $title  := .Get "title" | default (.Get 2) -}}
+    {{- $params := .Get "params" | default $paramsCollected -}}
+    <div class="{{ with $class }}{{ . }}{{ else }}ratio ratio-16x9 w-100{{ end }}">
+        <lite-youtube
+            class="w-100"
+            videoid="{{ $id }}"{{ with $title }}
+            playlabel="{{ . }}"{{ end }}
+            params="{{ $params }}"
+        ></lite-youtube>
+    </div>
+{{- end -}}

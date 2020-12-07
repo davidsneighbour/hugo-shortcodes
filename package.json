@@ -1,0 +1,60 @@
+{
+  "name": "@dnb-hugo/shortcodes",
+  "version": "1.0.10",
+  "description": "More shortcodes for Hugo",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "homepage": "https://github.com/dnb-hugo/components/tree/master/shortcodes",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"shortcodes/v\" --releaseCommitMessageFormat \"chore(release): shortcodes/v{{currentTag}}\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"shortcodes/v\" --releaseCommitMessageFormat \"chore(release): shortcodes/v{{currentTag}}\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"shortcodes/v\" --releaseCommitMessageFormat \"chore(release): shortcodes/v{{currentTag}}\" && git push --follow-tags origin main"
+  },
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/components/issues"
+  },
+  "devDependencies": {
+    "standard-version": "9.0.0",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "husky": "4.3.0"
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    },
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
+  },
+  "private": true,
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0,
+        "always",
+        100
+      ],
+      "type-enum": [
+        0,
+        "always",
+        [
+          "feat",
+          "fix",
+          "layouts",
+          "refactor",
+          "test",
+          "chore",
+          "wip",
+          "content"
+        ]
+      ]
+    }
+  }
+}
