@@ -2,4 +2,3 @@
 title: "Quote"
 description: "tbd."
 ---
-

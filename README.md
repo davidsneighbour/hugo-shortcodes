@@ -44,7 +44,7 @@ To override shortcodes just add a file in your own shortcode directory with the 
 
 ## Configuration
 
-```
+```toml
 [params.dnb.shortcodes.youtube]
 disabled = false
 ```
