@@ -1,0 +1,21 @@
+################################################################################
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+################################################################################
+version: 2
+updates:
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "07:00"
+      timezone: "Asia/Bangkok"
+    allow:
+      - dependency-type: "production"
+      - dependency-type: "development"
+    assignees:
+      - "davidsneighbour"
+    reviewers:
+      - "davidsneighbour"
+    target-branch: "main"
+    open-pull-requests-limit: 999
