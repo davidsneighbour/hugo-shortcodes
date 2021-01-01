@@ -19,7 +19,9 @@
 	<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
 		{{ with .Get "link"}}<a href="{{.}}">{{ end }}
 			<img
-			src='{{ if (.Get "name") }}{{ $image.RelPermalink }}{{ else }}{{ .Get "src" }}{{ end }}'
+				class="lazyload"
+				loading="lazy"
+ 				data-src='{{ if (.Get "name") }}{{ $image.RelPermalink }}{{ else }}{{ .Get "src" }}{{ end }}'
 			{{ if (.Get "name") }}width="{{ $image.Width }}" {{ else }}{{ with .Get "width" }}width="{{.}}" {{ end }}{{ end }}
 			{{ if (.Get "name") }}height="{{ $image.Height }}" {{ else }}{{ with .Get "height" }}height="{{.}}" {{ end }}{{ end }}
 	 		{{/* {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"  {{ end }}*/}}
