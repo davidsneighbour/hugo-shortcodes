@@ -56,6 +56,14 @@ Tagvariants:
 {{ $paramHeight := .Get "height" }}{{- /*  */ -}}
 {{ $paramCaption := trim .Inner " \n" | markdownify }}{{- /* used for caption */ -}}
 
+{{- /* image processing opons */ -}}
+{{ $paramBackgroundColor := .Get "background-color" | default false }}
+{{ $paramQuality := .Get "quality" | default false }}
+{{ $paramRotate := .Get "rotate" | default false }}
+{{ $paramAnchor := .Get "anchor" | default "smart" }}
+{{ $paramResample := .Get "resample" | default "Box" }}
+{{ $paramTargetFormat := .Get "target" | default "jpg" }}
+
 {{ if (or $paramSrc $paramName) }}
 
 	{{- /* determine the type of the image */ -}}
@@ -74,7 +82,7 @@ Tagvariants:
 			{{- /* Trying to "fall-back" to resources */ -}}
 			{{- $image = $resources.GetMatch (printf "%s" .) -}}
 			{{- if ne $image -}}
-				{{- errorf "The image set in src was not found: %s : %s" . $position -}}
+				{{- warnf "The image set in src was not found: %s : %s" . $position -}}
 			{{- else -}}
 				{{- $isPageBundle = true -}}
 				{{- warnf "You added a src attribute, but it seems this is a page resource: %s : %s" . $position -}}
@@ -89,7 +97,7 @@ Tagvariants:
 			{{- else -}}
 				{{- $image = $resources.GetMatch (printf "*%s*" .) -}}
 				{{- if ne $image -}}
-					{{- errorf "No match found for named image: %s at: %s" . $position -}}
+					{{- warnf "No match found for named image: %s at: %s" . $position -}}
 				{{ end }}
 			{{- end -}}
 		{{- end -}}
@@ -133,7 +141,7 @@ Tagvariants:
 			{{ with .link -}}<a href="{{.}}">{{- end }}
 			<picture>
 				<img
-					class="lazyload w-100"
+					class="lazyload w-100 img-fluid"
 					loading="lazy"
 					data-src="{{ .src | absURL }}"
 					{{ with .srcset }}srcset="{{ . }}" {{ end }}
@@ -149,7 +157,7 @@ Tagvariants:
 	{{ end }}
 
 {{ else }}
-	{{- errorf "Either name or src are required attributes at: %s" $position -}}
+	{{- warnf "Either name or src are required attributes at: %s" $position -}}
 {{ end }}
 
 {{- /***************************************************************************
