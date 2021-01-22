@@ -108,12 +108,17 @@ Tagvariants:
 		{{/******************************************************************/}}
 		{{ $imgFallback := false }}
 		{{ $imgSrcSet := slice }}
-		{{ range $imagesizes }}
-			{{ $srcUrl := (printf "%dx" . | $image.Resize).RelPermalink }}
+		{{ range $idx, $size := $imagesizes }}
+			{{ $resizedImage := (printf "%dx" $size | $image.Resize)}}
+			{{ $srcUrl := $resizedImage.RelPermalink }}
+			{{ if ne $idx }}
+				{{ $finalImage = merge $finalImage (dict "width" $resizedImage.Width) }}
+				{{ $finalImage = merge $finalImage (dict "height" $resizedImage.Height) }}
+			{{ end }}
 			{{ if ne $imgFallback }}
 				{{ $imgFallback = $srcUrl }}
 			{{ end }}
-			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) }}
+			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl $size) }}
 		{{ end }}
 		{{ $finalImage = merge $finalImage (dict "src" $imgFallback) }}
 		{{ $finalImage = merge $finalImage (dict "srcset" (delimit $imgSrcSet ", ")) }}
