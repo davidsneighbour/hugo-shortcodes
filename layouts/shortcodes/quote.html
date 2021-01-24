@@ -1,11 +1,10 @@
-{{ $_hugo_config := `{ "version": 1 }` }}
-<blockquote class="blockquote">  
+<blockquote class="blockquote">
 	{{.Inner}}
     {{ if .Get "source" }}
-    <footer class="blockquote-footer">  
+    <footer class="blockquote-footer">
 		<cite title="Quelle: {{ with .Get "source"}}{{.}}{{ end }}">
             {{ with .Get "src"}}
-                Weiterlesen auf 
+                Weiterlesen auf
                 <a href="{{.}}" target="_blank" rel="noopener noreferrer">
             {{ end }}
             {{ with .Get "source" }}{{.}}{{ end }}
