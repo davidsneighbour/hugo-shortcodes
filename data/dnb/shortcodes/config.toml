@@ -1,2 +1,6 @@
 [youtube]
 disabled = false
+
+js = [
+    "js/youtube.js"
+]
