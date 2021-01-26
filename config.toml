@@ -8,16 +8,16 @@ extended = true
 min = "0.56.0"
 
 [[module.mounts]]
-source = "assets"
-target = "assets"
+source = "assets/js/youtube.js"
+target = "assets/js/youtube.js"
 
 [[module.mounts]]
-source = "content"
-target = "content"
+source = "content/dnb-hugo-shortcodes"
+target = "content/dnb-hugo-shortcodes"
 
 [[module.mounts]]
-source = "data"
-target = "data"
+source = "data/dnb/shortcodes"
+target = "data/dnb/shortcodes"
 
 [[module.mounts]]
 source = "layouts"
