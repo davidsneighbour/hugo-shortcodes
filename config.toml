@@ -16,8 +16,8 @@ source = "content/dnb-hugo-shortcodes"
 target = "content/dnb-hugo-shortcodes"
 
 [[module.mounts]]
-source = "data/dnb/shortcodes"
-target = "data/dnb/shortcodes"
+source = "data"
+target = "data"
 
 [[module.mounts]]
 source = "layouts"
