@@ -104,6 +104,8 @@ Tagvariants:
 	{{- end -}}
 
 	{{ $finalImage := dict }}
+	{{ $lowQualityPreviewImage := $image.Resize "100x" | images.Filter (images.Pixelate 8) (images.GaussianBlur 10) }}
+	{{ $finalImage = merge $finalImage (dict "lqp" $lowQualityPreviewImage) }}
 	{{ if $isPageBundle }}
 		{{/******************************************************************/}}
 		{{ $imgFallback := false }}
@@ -146,6 +148,7 @@ Tagvariants:
 			{{ with .link -}}<a href="{{.}}">{{- end }}
 			<picture>
 				<img
+					src="{{ .lqp.Permalink }}"
 					class="lazyload w-100 img-fluid"
 					loading="lazy"
 					data-src="{{ .src | absURL }}"
