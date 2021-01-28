@@ -1,3 +1,4 @@
+[plugins]
 js = [
     "js/youtube.js"
 ]
