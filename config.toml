@@ -1,15 +1,6 @@
-################################################################################
-# configuration
-#
-# override by adding your own parameters into your config.toml
-################################################################################
 [module.hugoVersion]
 extended = true
 min = "0.56.0"
-
-[[module.mounts]]
-source = "assets/js/youtube.js"
-target = "assets/js/youtube.js"
 
 [[module.mounts]]
 source = "content/dnb-hugo-shortcodes"
@@ -26,3 +17,11 @@ target = "layouts"
 [[module.mounts]]
 source = "static"
 target = "static"
+
+# see https://github.com/paulirish/lite-youtube-embed for details
+[[module.imports]]
+path = "github.com/paulirish/lite-youtube-embed"
+disabled = false
+[[module.imports.mounts]]
+source = "src"
+target = "assets/libs/liteyoutube"

@@ -1,6 +1,9 @@
 [plugins]
 js = [
-    "js/youtube.js"
+    "libs/liteyoutube/lite-yt-embed.js"
+]
+scss = [
+    "libs/liteyoutube/lite-yt-embed.css"
 ]
 
 [youtube]
