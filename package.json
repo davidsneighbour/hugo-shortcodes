@@ -1,15 +1,8 @@
 {
   "name": "@dnb-hugo/shortcodes",
-  "version": "1.2.0",
   "description": "More shortcodes for Hugo",
+  "version": "1.2.1",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "homepage": "https://github.com/dnb-hugo/shortcodes",
-  "license": "MIT",
-  "scripts": {
-    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
-    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main"
-  },
   "bugs": {
     "url": "https://github.com/dnb-hugo/shortcodes/issues"
   },
@@ -17,5 +10,12 @@
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
     "standard-version": "9.1.0"
   },
-  "private": true
+  "homepage": "https://github.com/dnb-hugo/shortcodes",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main"
+  }
 }
