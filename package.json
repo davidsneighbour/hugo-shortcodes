@@ -14,47 +14,7 @@
     "url": "https://github.com/dnb-hugo/shortcodes/issues"
   },
   "devDependencies": {
-    "standard-version": "9.1.0",
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "husky": "4.3.8"
+    "standard-version": "9.1.0"
   },
-  "standard-version": {
-    "skip": {
-      "changelog": true
-    },
-    "bumpFiles": [
-      {
-        "filename": "package.json",
-        "type": "json"
-      }
-    ]
-  },
-  "private": true,
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "body-max-line-length": [
-        0,
-        "always",
-        100
-      ],
-      "type-enum": [
-        0,
-        "always",
-        [
-          "feat",
-          "fix",
-          "layouts",
-          "refactor",
-          "test",
-          "chore",
-          "wip",
-          "content"
-        ]
-      ]
-    }
-  }
+  "private": true
 }
