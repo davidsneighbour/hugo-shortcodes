@@ -42,9 +42,38 @@ To override shortcodes just add a file in your own shortcode directory with the 
 
 [Read more about theme components](https://gohugo.io/themes/theme-components/).
 
-## Configuration
-
-```toml
-[params.dnb.shortcodes.youtube]
-disabled = false
 ```
+
+## Shortcodes
+
+---
+
+### Youtube
+
+This shortcode replaces the internal `youtube` shortcode and adds an unobtrusive, privacy conscious and unbloated custom element for YouTube videos. It uses [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed).
+
+#### Usage
+
+```gotemplate
+{{< youtube id="_BM3zCMRPcw" >}}
+{{< youtube "_BM3zCMRPcw" >}}
+{{< youtube id="_BM3zCMRPcw" title="Lower your eyelids to die with the sun - M83" >}}
+```
+
+#### Parameters
+
+| parameter | default | notes |
+| --- | --- | --- |
+| *class* | w-100 | classnames to add to the video container |
+| *id* |  | ID of the YouTube video to embed |
+| *params* |  | [custom parameters](https://developers.google.com/youtube/player_parameters#Parameters) to be added to influence the display and functionality of the player. These parameters should be URLized. |
+| *title* |  | title of the video, will be displayed as banner on top of the preview image |
+
+#### Resources
+
+If you are not using the dnb-hugo asset dropin configuration you need to add JavaScript and SCSS files to your Hugo pipes:
+
+-   `libs/liteyoutube/lite-yt-embed.js`
+-   `libs/liteyoutube/lite-yt-embed.scss`
+
+Both resources are mounted into the assets folder, so they can be easily integrated into your pipelines.

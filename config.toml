@@ -3,10 +3,6 @@ extended = true
 min = "0.56.0"
 
 [[module.mounts]]
-source = "content/dnb-hugo-shortcodes"
-target = "content/dnb-hugo-shortcodes"
-
-[[module.mounts]]
 source = "data"
 target = "data"
 
@@ -23,5 +19,8 @@ target = "static"
 path = "github.com/paulirish/lite-youtube-embed"
 disabled = false
 [[module.imports.mounts]]
-source = "src"
-target = "assets/libs/liteyoutube"
+source = "src/lite-yt-embed.css"
+target = "assets/libs/liteyoutube/lite-yt-embed.scss"
+[[module.imports.mounts]]
+source = "src/lite-yt-embed.js"
+target = "assets/libs/liteyoutube/lite-yt-embed.js"
