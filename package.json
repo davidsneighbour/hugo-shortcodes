@@ -1,14 +1,14 @@
 {
   "name": "@dnb-hugo/shortcodes",
   "description": "More shortcodes for Hugo",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-hugo/shortcodes/issues"
   },
   "devDependencies": {
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "standard-version": "9.1.0"
+    "standard-version": "9.1.1"
   },
   "homepage": "https://github.com/dnb-hugo/shortcodes",
   "license": "MIT",
