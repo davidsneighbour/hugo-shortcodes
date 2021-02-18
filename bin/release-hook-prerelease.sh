@@ -11,8 +11,8 @@ fi
 hugo mod get -u ./...
 hugo mod tidy
 
-git add go.mod
-git add go.sum
+git add go.mod --force
+git add go.sum --force
 
 #rm -rf public
 #hugo
