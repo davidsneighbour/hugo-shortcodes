@@ -42,8 +42,6 @@ To override shortcodes just add a file in your own shortcode directory with the 
 
 [Read more about theme components](https://gohugo.io/themes/theme-components/).
 
-```
-
 ## Shortcodes
 
 ---
