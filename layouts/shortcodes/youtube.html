@@ -20,15 +20,19 @@ see
 {{- $pc := .Page.Site.Config.Privacy.YouTube -}}
 {{- if not $pc.Disable -}}
     {{- $id     := .Get "id"    | default (.Get 0) -}}
-    {{- $class  := .Get "class" | default (.Get 1) -}}
+    {{- $class  := .Get "class" | default (.Get 1 | default "w-100") -}}
     {{- $title  := .Get "title" | default (.Get 2) -}}
     {{- $params := .Get "params" | default $paramsCollected -}}
     <div class="{{ with $class }}{{ . }}{{ else }}ratio ratio-16x9 w-100{{ end }}">
         <lite-youtube
-            class="w-100"
+            class="{{ $class }}"
             videoid="{{ $id }}"{{ with $title }}
             playlabel="{{ . }}"{{ end }}
             params="{{ $params }}"
-        ></lite-youtube>
+            style="background-image: url('https://i.ytimg.com/vi/{{ $id }}/hqdefault.jpg');">
+            <button type="button" class="lty-playbtn">
+                {{ with $title }}<span class="lyt-visually-hidden">{{ . }}</span>{{ end }}
+            </button>
+        </lite-youtube>
     </div>
 {{- end -}}
