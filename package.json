@@ -7,6 +7,7 @@
     "url": "https://github.com/dnb-hugo/shortcodes/issues"
   },
   "devDependencies": {
+    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
     "standard-version": "9.1.1"
   },
@@ -16,6 +17,7 @@
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
     "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main"
+    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
+    "remark": "remark"
   }
 }
