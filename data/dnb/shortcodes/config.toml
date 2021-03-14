@@ -5,9 +5,9 @@ verbose = true
 
 [plugins]
 js = [
-    "libs/liteyoutube/lite-yt-embed.js",
-    "libs/litevimeo/lite-vimeo.js"
+  "libs/liteyoutube/lite-yt-embed.js",
+  "libs/lite-vimeo/lite-vimeo.js"
 ]
 scss = [
-    "libs/liteyoutube/lite-yt-embed.scss"
+  "libs/liteyoutube/lite-yt-embed.scss"
 ]
