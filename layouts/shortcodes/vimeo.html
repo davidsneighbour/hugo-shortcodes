@@ -9,8 +9,10 @@ see
   {{- $id     := .Get "id"    | default (.Get 0) -}}
   {{- $class  := .Get "class" | default (.Get 1 | default "w-100") -}}
   {{- $title  := .Get "title" | default (.Get 2) -}}
-  <div class="{{ with $class }}{{ . }}{{ else }}ratio ratio-16x9{{ end }}">
-    <iframe src="https://player.vimeo.com/video/{{ .Get "id" }}{{- if $pc.EnableDNT -}}?dnt=1{{- end -}}" {{ if not (.Get "class") }}style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" {{ end }}{{ if .Get "title"}}title="{{ .Get "title" }}"{{ else }}title="vimeo video"{{ end }} webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <div class="{{ with $class }}{{ . }}{{ else }}ratio ratio-16x9{{ end }} mb-3">
+    <lite-vimeo videoid="{{ $id }}" videotitle="{{ $title }}"></lite-vimeo>
   </div>
-  <lite-vimeo videoid="{{ $id }}" videotitle="{{ $title }}"></lite-vimeo>
+
 {{- end -}}
+
+<!-- https://player.vimeo.com/video/522265992?title=0&byline=0&portrait=0 //-->
