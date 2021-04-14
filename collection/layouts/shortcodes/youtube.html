@@ -20,12 +20,11 @@ see
 {{- $pc := .Page.Site.Config.Privacy.YouTube -}}
 {{- if not $pc.Disable -}}
     {{- $id     := .Get "id"    | default (.Get 0) -}}
-    {{- $class  := .Get "class" | default (.Get 1 | default "w-100") -}}
+    {{- $class  := .Get "class" | default (.Get 1) -}}
     {{- $title  := .Get "title" | default (.Get 2) -}}
     {{- $params := .Get "params" | default $paramsCollected -}}
-    <div class="{{ with $class }}{{ . }}{{ else }}ratio ratio-16x9 w-100{{ end }}">
+    <div class="shortcode--youtube {{ with $class }}{{ . }}{{ end }}">
         <lite-youtube
-            class="{{ $class }}"
             videoid="{{ $id }}"{{ with $title }}
             playlabel="{{ . }}"{{ end }}
             params="{{ $params }}"

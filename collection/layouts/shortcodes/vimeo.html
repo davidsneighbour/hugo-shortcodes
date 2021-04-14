@@ -7,9 +7,9 @@ see
 {{- $pc := .Page.Site.Config.Privacy.Vimeo -}}
 {{- if not $pc.Disable -}}
   {{- $id     := .Get "id"    | default (.Get 0) -}}
-  {{- $class  := .Get "class" | default (.Get 1 | default "w-100") -}}
+  {{- $class  := .Get "class" | default (.Get 1 | default "w-100 ratio ratio-16x9") -}}
   {{- $title  := .Get "title" | default (.Get 2) -}}
-  <div class="{{ with $class }}{{ . }}{{ else }}ratio ratio-16x9{{ end }} mb-3">
+  <div class="{{ with $class }}{{ . }}{{ end }} mb-3">
     <lite-vimeo videoid="{{ $id }}" videotitle="{{ $title }}"></lite-vimeo>
   </div>
 

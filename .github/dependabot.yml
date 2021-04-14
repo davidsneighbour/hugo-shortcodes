@@ -7,13 +7,46 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
     assignees:
       - "davidsneighbour"
     reviewers:
-      - "dnb-hugo/dnb-hugo"
+      - "davidsneighbour"
+    target-branch: "main"
+    open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: "/"
+
+  - package-ecosystem: "npm"
+    directory: "/collection/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "18:00"
+      timezone: "Asia/Bangkok"
+    assignees:
+      - "davidsneighbour"
+    reviewers:
+      - "davidsneighbour"
+    target-branch: "main"
+    open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: "/"
+
+  - package-ecosystem: "npm"
+    directory: "/youtube/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "18:00"
+      timezone: "Asia/Bangkok"
+    assignees:
+      - "davidsneighbour"
+    reviewers:
+      - "davidsneighbour"
     target-branch: "main"
     open-pull-requests-limit: 999
     pull-request-branch-name:
