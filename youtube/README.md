@@ -1,6 +1,6 @@
-## DNB Hugo Shortcodes
+## DNB Hugo - Youtube Shortcode
 
-Shortcodes I use in multiple themes for my Hugo websites. 
+A responsive and very fast shortcode to add youtube videos to your Hugo website. 
 
 ### Installing
 
@@ -15,12 +15,10 @@ Step 1: add the module to your required modules in `config.toml`.
 ```toml
 [module]
 [[module.imports]]
-path = "github.com/dnb-hugo/shortcodes"
+path = "github.com/dnb-hugo/shortcodes/youtube"
 ```
 
 The next time you run hugo it will download the latest version of the module.
-
-This module adds a documentation on development environments under [http://localhost:1313/shortcodes/](http://localhost:1313/shortcodes/). If your local `hugo server` runs under a different host you can find the documentation of course under *that* host. 
 
 ### Updating
 
@@ -42,15 +40,9 @@ To override shortcodes just add a file in your own shortcode directory with the 
 
 [Read more about theme components](https://gohugo.io/themes/theme-components/).
 
-### Shortcodes
-
-----------
-
-#### Youtube
+### Usage
 
 This shortcode replaces the internal `youtube` shortcode and adds an unobtrusive, privacy conscious and unbloated custom element for YouTube videos. It uses [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed).
-
-##### Usage
 
 ```gotemplate
 {{< youtube id="_BM3zCMRPcw" >}}
@@ -58,7 +50,7 @@ This shortcode replaces the internal `youtube` shortcode and adds an unobtrusive
 {{< youtube id="_BM3zCMRPcw" title="Lower your eyelids to die with the sun - M83" >}}
 ```
 
-##### Parameters
+#### Parameters
 
 | parameter | default | notes |
 | --- | --- | --- |
@@ -67,7 +59,7 @@ This shortcode replaces the internal `youtube` shortcode and adds an unobtrusive
 | *params* |  | [custom parameters](https://developers.google.com/youtube/player_parameters#Parameters) to be added to influence the display and functionality of the player. These parameters should be URLized. |
 | *title* |  | title of the video, will be displayed as banner on top of the preview image |
 
-##### Resources
+#### Resources
 
 If you are not using the dnb-hugo asset dropin configuration you need to add JavaScript and SCSS files to your Hugo pipes:
 
