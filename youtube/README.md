@@ -50,6 +50,8 @@ This shortcode replaces the internal `youtube` shortcode and adds an unobtrusive
 {{< youtube id="_BM3zCMRPcw" title="Lower your eyelids to die with the sun - M83" >}}
 ```
 
+Run `hugo server` in this module and a list of sample usages will be presented at [http://localhost:1313](http://localhost:1313)
+
 #### Parameters
 
 | parameter | default | notes |
