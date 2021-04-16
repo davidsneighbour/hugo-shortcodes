@@ -1,7 +1,7 @@
 ---
 title: "DNB-Hugo Youtube Shortcode"
 date: 2021-04-16T19:56:45+07:00
-layout: "sc-youtube"
+layout: "sc-documentation"
 ---
 
 Following are some samples for the usage of the Youtube Shortcode.
