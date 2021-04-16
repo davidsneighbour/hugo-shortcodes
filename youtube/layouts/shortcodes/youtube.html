@@ -17,12 +17,13 @@ see
 {{ range $key, $value := $params }}
     {{ $paramsCollected = printf "%s&%s=%s" $paramsCollected $key $value }}
 {{ end }}
-{{- $pc := .Page.Site.Config.Privacy.YouTube -}}
+{{- $pc := site.Config.Privacy.YouTube -}}
 {{- if not $pc.Disable -}}
     {{- $id     := .Get "id"    | default (.Get 0) -}}
     {{- $class  := .Get "class" | default (.Get 1) -}}
     {{- $title  := .Get "title" | default (.Get 2) -}}
     {{- $params := .Get "params" | default $paramsCollected -}}
+
     <div class="shortcode--youtube {{ with $class }}{{ . }}{{ end }}">
         <lite-youtube
             videoid="{{ $id }}"{{ with $title }}

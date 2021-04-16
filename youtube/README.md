@@ -67,3 +67,10 @@ If you are not using the dnb-hugo asset dropin configuration you need to add Jav
 - `libs/liteyoutube/lite-yt-embed.scss`
 
 Both resources are mounted into the assets folder, so they can be easily integrated into your pipelines.
+
+If you are not using any Hugo pipelines (shame on you) then add the Javascript at the end of the page before the `</body>` tag and CSS in the header before the `</head>` tag. These files are available via mount into the `static` folder.
+
+```html
+<link href="/libs/liteyoutube/lite-yt-embed.css" rel="stylesheet">
+<script src="/libs/liteyoutube/lite-yt-embed.js"></script>
+```
