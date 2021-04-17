@@ -7,10 +7,8 @@
     "url": "https://github.com/dnb-hugo/shortcodes/issues"
   },
   "devDependencies": {
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@slightlyoff/lite-vimeo": "0.1.2",
-    "standard-version": "9.2.0"
+    "@dnb-hugo/remark-config": "2.0.3",
+    "@dnb-hugo/standard-version-config": "2.0.2"
   },
   "homepage": "https://github.com/dnb-hugo/shortcodes",
   "license": "MIT",
