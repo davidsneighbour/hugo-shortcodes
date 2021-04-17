@@ -17,14 +17,3 @@ target = "layouts"
 [[module.mounts]]
 source = "static"
 target = "static"
-
-# see https://github.com/paulirish/lite-youtube-embed for details
-[[module.imports]]
-path = "github.com/paulirish/lite-youtube-embed"
-disabled = false
-[[module.imports.mounts]]
-source = "src/lite-yt-embed.css"
-target = "assets/libs/liteyoutube/lite-yt-embed.scss"
-[[module.imports.mounts]]
-source = "src/lite-yt-embed.js"
-target = "assets/libs/liteyoutube/lite-yt-embed.js"
