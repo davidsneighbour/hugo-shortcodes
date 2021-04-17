@@ -16,10 +16,6 @@ target = "data"
 source = "layouts"
 target = "layouts"
 
-[[module.mounts]]
-source = "static"
-target = "static"
-
 # see https://github.com/paulirish/lite-youtube-embed for details
 [[module.imports]]
 path = "github.com/paulirish/lite-youtube-embed"
