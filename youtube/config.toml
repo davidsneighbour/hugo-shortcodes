@@ -2,11 +2,7 @@ pygmentsUseClasses=true
 
 [module.hugoVersion]
 extended = true
-min = "0.56.0"
-
-[[module.mounts]]
-source = "assets/libs/lite-vimeo/lite-vimeo.js"
-target = "assets/libs/lite-vimeo/lite-vimeo.js"
+min = "0.83.1"
 
 [[module.mounts]]
 source = "data"
@@ -24,6 +20,7 @@ disabled = false
 [[module.imports.mounts]]
 source = "src/lite-yt-embed.css"
 target = "assets/libs/liteyoutube/lite-yt-embed.scss"
+
 [[module.imports.mounts]]
 source = "src/lite-yt-embed.css"
 target = "static/libs/liteyoutube/lite-yt-embed.css"
@@ -31,6 +28,7 @@ target = "static/libs/liteyoutube/lite-yt-embed.css"
 [[module.imports.mounts]]
 source = "src/lite-yt-embed.js"
 target = "assets/libs/liteyoutube/lite-yt-embed.js"
+
 [[module.imports.mounts]]
 source = "src/lite-yt-embed.js"
 target = "static/libs/liteyoutube/lite-yt-embed.js"
