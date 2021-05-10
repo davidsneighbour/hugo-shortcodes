@@ -1,0 +1,22 @@
+{
+  "name": "@dnb-hugo-shortcodes/all",
+  "description": "All dnb-hugo shortcodes for Hugo",
+  "version": "0.0.0",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/shortcodes/issues"
+  },
+  "devDependencies": {
+    "@dnb-hugo/remark-config": "2.0.6",
+    "@dnb-hugo/standard-version-config": "2.0.5"
+  },
+  "homepage": "https://github.com/dnb-hugo/shortcodes",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"all/v\" --releaseCommitMessageFormat \"chore(release): all/v{{currentTag}}\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"all/v\" --releaseCommitMessageFormat \"chore(release): all/v{{currentTag}}\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"all/v\" --releaseCommitMessageFormat \"chore(release): all/v{{currentTag}}\" && git push --follow-tags origin main",
+    "remark": "remark"
+  }
+}
