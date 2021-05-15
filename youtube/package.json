@@ -7,8 +7,8 @@
     "url": "https://github.com/dnb-hugo/shortcodes/issues"
   },
   "devDependencies": {
-    "@dnb-hugo/remark-config": "2.0.6",
-    "@dnb-hugo/standard-version-config": "2.0.5"
+    "@dnb-hugo/remark-config": "2.0.11",
+    "@dnb-hugo/standard-version-config": "2.0.10"
   },
   "homepage": "https://github.com/dnb-hugo/shortcodes",
   "license": "MIT",
