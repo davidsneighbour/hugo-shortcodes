@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@dnb-hugo/remark-config": "2.0.13",
-    "@dnb-hugo/standard-version-config": "2.0.12",
+    "@dnb-hugo/standard-version-config": "2.0.16",
     "@slightlyoff/lite-vimeo": "0.1.2",
     "standard-version": "9.3.0"
   },
