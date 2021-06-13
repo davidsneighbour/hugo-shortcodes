@@ -8,11 +8,11 @@ disabled = false
 ignoreConfig = false
 ignoreImports = false
 
-[[module.imports]]
-path = "github.com/dnb-hugo/shortcodes/pictures"
-disabled = false
-ignoreConfig = false
-ignoreImports = false
+#[[module.imports]]
+#path = "github.com/dnb-hugo/shortcodes/pictures"
+#disabled = false
+#ignoreConfig = false
+#ignoreImports = false
 
 [[module.imports]]
 path = "github.com/dnb-hugo/shortcodes/youtube"
