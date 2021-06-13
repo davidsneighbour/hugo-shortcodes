@@ -1,6 +1,6 @@
-github.com/dnb-hugo/shortcodes/collection v1.4.6 h1:taO1Zlv4xeQYJCeXgjZNaen+h/Eq5kJ6Y8IOY1UEfJY=
-github.com/dnb-hugo/shortcodes/collection v1.4.6/go.mod h1:UO32YF9Ptq/PJdaoabfltCcHG7bk1iNp69XjnBCvWT4=
-github.com/dnb-hugo/shortcodes/youtube v1.0.6 h1:IKp/7+LBoNcd7vJJ/fHsaT/dVaN6ka+HI20cmodBgU0=
-github.com/dnb-hugo/shortcodes/youtube v1.0.6/go.mod h1:cZ1mPzHaAhmkaN2aws/zxGzBqouiB+OsPlp9MkJLtEE=
+github.com/dnb-hugo/shortcodes/collection v1.4.7 h1:bX890kahr9yIlekR8mft0zFlu3zzrCvOueaTPdP2fPk=
+github.com/dnb-hugo/shortcodes/collection v1.4.7/go.mod h1:IT39bdnDi2IzGwf1V3ZlYs8zf3OJj3pLbSOiOM8Kwmo=
+github.com/dnb-hugo/shortcodes/youtube v1.0.7 h1:kTjAGMlFrKggO715/CM9XLzjzgqjFGV45N2ftjHIDPM=
+github.com/dnb-hugo/shortcodes/youtube v1.0.7/go.mod h1:v9JJtAJtpGjn2iWpN/Tn6J14Q9ZNosyNJksY5F1/nII=
 github.com/paulirish/lite-youtube-embed v0.2.0 h1:n5HzpYk6HrL+60Ogj1c9hJ1RaOoLj1cysscQfDh67Rw=
 github.com/paulirish/lite-youtube-embed v0.2.0/go.mod h1:9nuUWCzbFF/vvl3ClpZ1KsYFi/hlKjVOkmG8E+nsGDY=
