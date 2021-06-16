@@ -1,3 +1,4 @@
 [plugins]
-js = ['libs/lite-vimeo/lite-vimeo.js']
-scss = []
+js = [
+  'libs/lite-vimeo/lite-vimeo.js'
+]
