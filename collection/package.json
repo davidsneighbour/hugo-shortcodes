@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo-shortcodes/collection",
   "description": "Shortcodes for Hugo",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-hugo/shortcodes/issues"
