@@ -16,9 +16,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "release": "standard-version --release-as patch -a -t \"collection/v\" --releaseCommitMessageFormat \"chore(release): collection/v{{currentTag}}\" && git push --follow-tags origin main",
-    "release-major": "standard-version --release-as major -a -t \"collection/v\" --releaseCommitMessageFormat \"chore(release): collection/v{{currentTag}}\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"collection/v\" --releaseCommitMessageFormat \"chore(release): collection/v{{currentTag}}\" && git push --follow-tags origin main",
+    "release": "standard-version --release-as patch -a -t \"youtube/v\" --releaseCommitMessageFormat \"chore(release): youtube/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"youtube/v\" --releaseCommitMessageFormat \"chore(release): youtube/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"youtube/v\" --releaseCommitMessageFormat \"chore(release): youtube/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "remark": "remark"
   }
 }
