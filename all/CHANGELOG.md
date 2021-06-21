@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.8](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.7...all/v1.0.8) (2021-06-21)
+
+
+### Chore
+
+* **release:** youtube/v0.0.7 ([d8818d5](https://github.com/dnb-hugo/shortcodes/commit/d8818d5af6d0a424dd7f09f8e6311d02d0894bf7))
+* **release:** youtube/v1.0.15 ([9560626](https://github.com/dnb-hugo/shortcodes/commit/9560626e6f05847329499382ae4c380af8d99ef5))
+* **release:** youtube/v1.4.11 ([a79ca9d](https://github.com/dnb-hugo/shortcodes/commit/a79ca9df3b44ef8c97d8caff5930f2125014f4b5))
+* fix configuration ([493855c](https://github.com/dnb-hugo/shortcodes/commit/493855cb68704ca316b2abce40e961afdcde8906))
+* fix minimum hugo version ([13c76c0](https://github.com/dnb-hugo/shortcodes/commit/13c76c08760cac6a916946c0fe4f4e1896eee9b2))
+* fix minimum hugo version ([cd8e473](https://github.com/dnb-hugo/shortcodes/commit/cd8e47333b8052bb406913e29984d3337c25b0ea))
+* fix minimum hugo version ([48c16d0](https://github.com/dnb-hugo/shortcodes/commit/48c16d0f78ef7866fdba841ed0544c1fbf3064f7))
+
 ### [1.0.7](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.6...all/v1.0.7) (2021-06-21)
 
 
