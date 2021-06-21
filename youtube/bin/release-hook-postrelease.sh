@@ -1,4 +1,6 @@
 #!/bin/bash
 
 git push --follow-tags origin main
-echo -e "\033[31;7mDon't forget to update shortcodes/all!\e[0m";
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+printf "${RED}Don't forget to update shortcodes/all${NC}\n"
