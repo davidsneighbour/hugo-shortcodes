@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.5...all/v1.0.6) (2021-06-21)
+
+
+### Chore
+
+* update modules ([6b9b417](https://github.com/dnb-hugo/shortcodes/commit/6b9b417c861ae65ecd25f39ca3a652d43fcfddb1))
+
 ### [1.0.5](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.4...all/v1.0.5) (2021-06-21)
 
 
