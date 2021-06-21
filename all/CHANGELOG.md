@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.6...all/v1.0.7) (2021-06-21)
+
+
+### Bug Fixes
+
+* update modules before releasing version ([7da110d](https://github.com/dnb-hugo/shortcodes/commit/7da110d0c368ac3fbc4920d3d5eded40c4a02d3d))
+
+
+### Chore
+
+* **release:** youtube/v1.4.10 ([3740eee](https://github.com/dnb-hugo/shortcodes/commit/3740eee800a791dbe1a70ea8ae57904e78288652))
+* fix package.json post release scripts ([7262f9f](https://github.com/dnb-hugo/shortcodes/commit/7262f9f21302e9743335a5902e904a3881d1d873))
+* **release:** youtube/v0.0.6 ([1de24ed](https://github.com/dnb-hugo/shortcodes/commit/1de24ed1d3b564188454ac9dc6e6692815b691d1))
+* fix package.json post release scripts ([442f608](https://github.com/dnb-hugo/shortcodes/commit/442f608315b4806bfe594413910a1dc166db695e))
+* **release:** youtube/v1.0.14 ([7cc78ca](https://github.com/dnb-hugo/shortcodes/commit/7cc78ca13f96301d72d3ea8048e6c14d433101df))
+* fix package.json post release scripts ([dc32f26](https://github.com/dnb-hugo/shortcodes/commit/dc32f267a33255f542012f4660feb126ca0f15c1))
+* **release:** youtube/v1.0.12 ([a232f7e](https://github.com/dnb-hugo/shortcodes/commit/a232f7e5a6d7b4347470e9a9f554fea33ab58a78))
+* **release:** youtube/v1.0.13 ([c012784](https://github.com/dnb-hugo/shortcodes/commit/c01278481d6c73ae414dfe2ef0e1ee436a54f1d7))
+* add note to run release on shortcodes/all ([78b9471](https://github.com/dnb-hugo/shortcodes/commit/78b94716ddb064d60ee1840e02c85db7b0057f0e))
+* add note to run release on shortcodes/all ([f80efde](https://github.com/dnb-hugo/shortcodes/commit/f80efde3f42430cafbc035ce552069cb87213e27))
+
 ### [1.0.6](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.5...all/v1.0.6) (2021-06-21)
 
 
