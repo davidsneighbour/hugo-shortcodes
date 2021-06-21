@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/dnb-hugo/shortcodes/compare/youtube/v1.0.14...youtube/v0.0.6) (2021-06-21)
+
+
+### Chore
+
+* fix package.json post release scripts ([442f608](https://github.com/dnb-hugo/shortcodes/commit/442f608315b4806bfe594413910a1dc166db695e))
+
 ### [0.0.5](https://github.com/dnb-hugo/shortcodes/compare/pictures/v0.0.4...pictures/v0.0.5) (2021-06-21)
 
 
