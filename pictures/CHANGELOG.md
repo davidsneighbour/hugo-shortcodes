@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/dnb-hugo/shortcodes/compare/pictures/v0.0.4...pictures/v0.0.5) (2021-06-21)
+
+
+### Bug Fixes
+
+* configuration file ([3775a07](https://github.com/dnb-hugo/shortcodes/commit/3775a077cb16b3715ca0d6108ea43100aeb92b9d))
+* remove replace path in go.mod ([58deb84](https://github.com/dnb-hugo/shortcodes/commit/58deb842ec45b7b2efbb532dbc423bbaa7322795))
+
+
+### Documentation
+
+* **fix:** typo ([dc35e03](https://github.com/dnb-hugo/shortcodes/commit/dc35e03377848ad4e63517ef3536bdec9ee95ea5))
+
+
+### Chore
+
+* **release:** all/v1.0.4 ([a464498](https://github.com/dnb-hugo/shortcodes/commit/a46449834e29610224608e8b0c868943f18c6380))
+* **release:** collection/v1.4.9 ([a2afb20](https://github.com/dnb-hugo/shortcodes/commit/a2afb20abda5e8996c9873f6184bc3d1289c289e))
+* add pictures package to dependabot config ([3b469cf](https://github.com/dnb-hugo/shortcodes/commit/3b469cf164123f13fd647496b305ca904037307c))
+* cleanup release scripts ([691dfa6](https://github.com/dnb-hugo/shortcodes/commit/691dfa6c4d83c4415728bf655f13395f1ff167bd))
+* cleanup release scripts ([b83365d](https://github.com/dnb-hugo/shortcodes/commit/b83365d9b589dcb7871920b83e20def4f3d17cc7))
+* cleanup release scripts ([601acbc](https://github.com/dnb-hugo/shortcodes/commit/601acbc6c6a000a7d2a5db81504f580a5c50ea7f))
+* move configuration into config directory ([18c94fc](https://github.com/dnb-hugo/shortcodes/commit/18c94fcc64d28ea0b7d4adb985cafe33420d4f84))
+* **deps:** update dependencies ([fae3e44](https://github.com/dnb-hugo/shortcodes/commit/fae3e441a4c8add1294e94457544197ee0c79115))
+* update release scripts ([c3fcb99](https://github.com/dnb-hugo/shortcodes/commit/c3fcb99353440b771c7ef36c9a362191713379b1))
+* **deps:** update dependencies ([09a247e](https://github.com/dnb-hugo/shortcodes/commit/09a247efd0050e72be1c0420dd770071e0e1dde7))
+* **release:** all/v1.0.3 ([b38287c](https://github.com/dnb-hugo/shortcodes/commit/b38287c71c5e3adfa34259145c1f1e085a81c0fa))
+* **release:** collection/v1.4.8 ([5926746](https://github.com/dnb-hugo/shortcodes/commit/59267464adf0a1a8f9249afa12a5c8dd80fb0d15))
+* **release:** youtube/v1.0.8 ([7ae37c6](https://github.com/dnb-hugo/shortcodes/commit/7ae37c692f321788c0baeeb36b8d2dc1ab9c9d4f))
+
 ### 0.0.4 (2021-06-16)
 
 
