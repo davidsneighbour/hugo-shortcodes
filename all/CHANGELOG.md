@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.4...all/v1.0.5) (2021-06-21)
+
+
+### Chore
+
+* **release:** youtube/v1.0.10 ([5d6b97a](https://github.com/dnb-hugo/shortcodes/commit/5d6b97ad1981105cbba575aa5e8a0e015e75dc31))
+* disable configuration from lite-youtube-embed ([a1a648e](https://github.com/dnb-hugo/shortcodes/commit/a1a648e8d665d371bb9c4a9c36f2d8296d59f63f))
+* **release:** collection/v1.4.9 ([a2afb20](https://github.com/dnb-hugo/shortcodes/commit/a2afb20abda5e8996c9873f6184bc3d1289c289e))
+* **release:** pictures/v0.0.5 ([a7874d5](https://github.com/dnb-hugo/shortcodes/commit/a7874d5b6bd8166667a9fe6032a348cd884ef01c))
+* **release:** youtube/v1.0.9 ([2b0058b](https://github.com/dnb-hugo/shortcodes/commit/2b0058b490fd1b4b7916664c890e56667d3ef196))
+
 ### [1.0.4](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.3...all/v1.0.4) (2021-06-21)
 
 
