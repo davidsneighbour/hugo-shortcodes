@@ -14,7 +14,7 @@ target = "layouts"
 [[imports]]
 path = "github.com/paulirish/lite-youtube-embed"
 disable = false
-ignoreConfig = false
+ignoreConfig = true
 ignoreImports = false
 
 [[imports.mounts]]
