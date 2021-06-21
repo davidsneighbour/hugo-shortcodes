@@ -1,34 +1,34 @@
-pygmentsUseClasses=true
-
-[module.hugoVersion]
+[hugoVersion]
 extended = true
-min = "0.83.1"
+min = "0.84.0"
 
-[[module.mounts]]
+[[mounts]]
 source = "data"
 target = "data"
 
-[[module.mounts]]
+[[mounts]]
 source = "layouts"
 target = "layouts"
 
 # see https://github.com/paulirish/lite-youtube-embed for details
-[[module.imports]]
+[[imports]]
 path = "github.com/paulirish/lite-youtube-embed"
-disabled = false
+disable = false
+ignoreConfig = false
+ignoreImports = false
 
-[[module.imports.mounts]]
+[[imports.mounts]]
 source = "src/lite-yt-embed.css"
 target = "assets/libs/liteyoutube/lite-yt-embed.scss"
 
-[[module.imports.mounts]]
+[[imports.mounts]]
 source = "src/lite-yt-embed.css"
 target = "static/libs/liteyoutube/lite-yt-embed.css"
 
-[[module.imports.mounts]]
+[[imports.mounts]]
 source = "src/lite-yt-embed.js"
 target = "assets/libs/liteyoutube/lite-yt-embed.js"
 
-[[module.imports.mounts]]
+[[imports.mounts]]
 source = "src/lite-yt-embed.js"
 target = "static/libs/liteyoutube/lite-yt-embed.js"
