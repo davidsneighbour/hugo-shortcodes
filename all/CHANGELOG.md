@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.8...all/v1.0.9) (2021-06-22)
+
+
+### Bug Fixes
+
+* max hugo version at 0.83.1 and fix config ([a2a34b7](https://github.com/dnb-hugo/shortcodes/commit/a2a34b7bcdd85f62c556ab91270c3839705ae78d))
+
+
+### Chore
+
+* **release:** youtube/v0.0.8 ([acf11ae](https://github.com/dnb-hugo/shortcodes/commit/acf11ae4bfd11b3ec67e2a48e711f6fb29bae53d))
+* **release:** youtube/v1.0.16 ([49a7568](https://github.com/dnb-hugo/shortcodes/commit/49a7568194575bb16f67bb9f7bd662487b002272))
+* **release:** youtube/v1.4.12 ([eb27661](https://github.com/dnb-hugo/shortcodes/commit/eb276617f1ce28dfbf4a8351ebfc70a6c4780b32))
+
 ### [1.0.8](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.7...all/v1.0.8) (2021-06-21)
 
 
