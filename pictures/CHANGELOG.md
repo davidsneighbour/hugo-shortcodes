@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/dnb-hugo/shortcodes/compare/youtube/v1.0.17...youtube/v0.0.9) (2021-06-24)
+
+
+### Bug Fixes
+
+* remove version max restriction ([92a2347](https://github.com/dnb-hugo/shortcodes/commit/92a2347fe7fc876ca6d97b59874f40c18957a405))
+
 ### [0.0.8](https://github.com/dnb-hugo/shortcodes/compare/youtube/v1.0.16...youtube/v0.0.8) (2021-06-22)
 
 ### [0.0.7](https://github.com/dnb-hugo/shortcodes/compare/youtube/v1.0.15...youtube/v0.0.7) (2021-06-21)
