@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.10](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.9...all/v1.0.10) (2021-06-24)
+
+
+### Bug Fixes
+
+* remove version max restriction ([87cbe21](https://github.com/dnb-hugo/shortcodes/commit/87cbe21331515c7425007e681a33932754efcbf8))
+* remove version max restriction ([3bf559c](https://github.com/dnb-hugo/shortcodes/commit/3bf559c1e03b34b9641a1f95844c03f2e3998cb5))
+* remove version max restriction ([92a2347](https://github.com/dnb-hugo/shortcodes/commit/92a2347fe7fc876ca6d97b59874f40c18957a405))
+* remove version max restriction ([f1543ec](https://github.com/dnb-hugo/shortcodes/commit/f1543ec1793df896697dd873c5f83aac4d09ef9c))
+
+
+### Chore
+
+* **release:** youtube/v0.0.9 ([e1be3bd](https://github.com/dnb-hugo/shortcodes/commit/e1be3bd95e3f807dfa4f69965c542274af699128))
+* **release:** youtube/v1.0.17 ([0edfa70](https://github.com/dnb-hugo/shortcodes/commit/0edfa70c3a7a18aa80c689fffa1ee3feed9b56f5))
+* **release:** youtube/v1.4.13 ([7cce3d6](https://github.com/dnb-hugo/shortcodes/commit/7cce3d64f51f4edc93afafb950e7caca435aa55b))
+
 ### [1.0.9](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.8...all/v1.0.9) (2021-06-22)
 
 
