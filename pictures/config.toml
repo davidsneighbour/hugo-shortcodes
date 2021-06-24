@@ -3,7 +3,6 @@
 [module.hugoVersion]
 extended = true
 min = "0.56.0"
-max = "0.83.1"
 
 [[module.mounts]]
 source = "layouts"
