@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.11](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.10...all/v1.0.11) (2021-06-29)
+
+
+### Features
+
+* add config-tabs shortcode ([f57c9f0](https://github.com/dnb-hugo/shortcodes/commit/f57c9f0ecf900993941902e5c05b86cfa73141c7))
+
+
+### Chore
+
+* **release:** youtube/v1.4.14 ([7668762](https://github.com/dnb-hugo/shortcodes/commit/766876291fe9cbf66bf484e33080cf82fd49f3d0))
+
 ### [1.0.10](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.9...all/v1.0.10) (2021-06-24)
 
 
