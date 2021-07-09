@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@dnb-hugo/remark-config": "3.0.13",
-    "@dnb-hugo/standard-version-config": "3.0.13"
+    "@dnb-hugo/standard-version-config": "3.0.17"
   },
   "homepage": "https://github.com/dnb-hugo/shortcodes",
   "license": "MIT",
