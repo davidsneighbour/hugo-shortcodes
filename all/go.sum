@@ -1,5 +1,5 @@
-github.com/dnb-org/shortcodes/collection v1.4.9 h1:PbW2+h6Ya4p9FQCZJwnv2E1qM1j94GuHod4KU6oqxpk=
-github.com/dnb-org/shortcodes/collection v1.4.9/go.mod h1:El0EeUU/7T+tUh+bawo17VS8Wj6bFry6yGohG651lxY=
-github.com/dnb-org/shortcodes/youtube v1.4.14 h1:/bPQjJ2gkezjS7lP1Pr/1Oe8Ux88FAclXvmo3HXLIhg=
-github.com/dnb-org/shortcodes/youtube v1.4.14/go.mod h1:e6Ic4SG+49qsMMYdGdSvbgohHGg3PgtOPCMLb1DokN0=
+github.com/dnb-org/shortcodes/collection v1.4.17 h1:HoIKi+TuzMe+wtP3SvpmE8mMdD0i3J8amTSHEoF4z98=
+github.com/dnb-org/shortcodes/collection v1.4.17/go.mod h1:jY4DOilX3w3F/NIuVyqLIumMK1f8gPpXCIQxutZM0Kg=
+github.com/dnb-org/shortcodes/youtube v1.4.16 h1:srA1K+TW/Yd8IxvQPN4uARDLMd8m2zS78oi5Sa/IG3Q=
+github.com/dnb-org/shortcodes/youtube v1.4.16/go.mod h1:zuuEmKods4+g66Q0CI4zJ6R716ZNs29ZkPfCJnrlKA8=
 github.com/paulirish/lite-youtube-embed v0.2.0/go.mod h1:9nuUWCzbFF/vvl3ClpZ1KsYFi/hlKjVOkmG8E+nsGDY=

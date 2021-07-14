@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.12](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.11...all/v1.0.12) (2021-07-14)
+
+
+### Chore
+
+* **deps:** update dependencies ([2eb4929](https://github.com/dnb-hugo/shortcodes/commit/2eb49290173cf57b46be5a4c1f859a6914b8aa3c))
+* **deps:** update dependencies ([f849787](https://github.com/dnb-hugo/shortcodes/commit/f849787ff5a2309fa88c01599c3db7c0b3bf0fe2))
+* **deps:** update dependencies ([183ae93](https://github.com/dnb-hugo/shortcodes/commit/183ae93e97115fcb62b6a029cd414b5c97aab39c))
+* **deps:** update dependencies ([21a2ff1](https://github.com/dnb-hugo/shortcodes/commit/21a2ff19d1a4306c97371ec12c0493cab6460dc4))
+* **release:** collection/v1.4.17 ([eb5b230](https://github.com/dnb-hugo/shortcodes/commit/eb5b230175947f522c343ca09676a3dd04c0f971))
+* **release:** youtube/v1.0.18 ([e1fb747](https://github.com/dnb-hugo/shortcodes/commit/e1fb7479f8a3d9e3e4eb05f723b6512fea2bf7b3))
+* **release:** youtube/v1.0.19 ([efc3a5a](https://github.com/dnb-hugo/shortcodes/commit/efc3a5a1c9b5395d7cd08b7cd10fbc8ed3ee1bdc))
+* **release:** youtube/v1.4.15 ([174a85b](https://github.com/dnb-hugo/shortcodes/commit/174a85b6191458ef1b20d4c760f0c0a4d7fb413f))
+* **release:** youtube/v1.4.16 ([5b3dab3](https://github.com/dnb-hugo/shortcodes/commit/5b3dab3964e77980acabbb4a87ecf665b83d19fe))
+* update dnb-hugo to dnb-org ([4b4a52a](https://github.com/dnb-hugo/shortcodes/commit/4b4a52a43b879c6b95e295a3cad0f5811553291c))
+
 ### [1.0.11](https://github.com/dnb-org/shortcodes/compare/all/v1.0.10...all/v1.0.11) (2021-06-29)
 
 
