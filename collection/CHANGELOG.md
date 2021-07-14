@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.16](https://github.com/dnb-hugo/shortcodes/compare/youtube/v1.0.18...youtube/v1.4.16) (2021-07-14)
+
 ### [1.4.15](https://github.com/dnb-hugo/shortcodes/compare/youtube/v1.4.14...youtube/v1.4.15) (2021-07-14)
 
 
