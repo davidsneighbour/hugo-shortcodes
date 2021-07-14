@@ -1,3 +1,3 @@
-module github.com/dnb-hugo/shortcodes/collection
+module github.com/dnb-org/shortcodes/collection
 
 go 1.16

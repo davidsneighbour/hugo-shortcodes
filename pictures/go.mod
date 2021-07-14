@@ -1,3 +1,3 @@
-module github.com/dnb-hugo/shortcodes/pictures
+module github.com/dnb-org/shortcodes/pictures
 
 go 1.16

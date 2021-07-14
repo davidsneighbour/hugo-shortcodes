@@ -1,16 +1,16 @@
 {
-  "name": "@dnb-hugo-shortcodes/all",
-  "description": "All dnb-hugo shortcodes for Hugo",
+  "name": "@dnb-org-shortcodes/all",
+  "description": "All dnb-org shortcodes for Hugo",
   "version": "1.0.11",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnb-hugo/shortcodes/issues"
+    "url": "https://github.com/dnb-org/shortcodes/issues"
   },
   "devDependencies": {
-    "@dnb-hugo/remark-config": "3.0.13",
-    "@dnb-hugo/standard-version-config": "3.0.13"
+    "@dnb-org/remark-config": "3.0.13",
+    "@dnb-org/standard-version-config": "3.0.13"
   },
-  "homepage": "https://github.com/dnb-hugo/shortcodes",
+  "homepage": "https://github.com/dnb-org/shortcodes",
   "license": "MIT",
   "private": true,
   "scripts": {

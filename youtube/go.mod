@@ -1,4 +1,4 @@
-module github.com/dnb-hugo/shortcodes/youtube
+module github.com/dnb-org/shortcodes/youtube
 
 go 1.16
 

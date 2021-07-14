@@ -15,7 +15,7 @@ Step 1: add the module to your required modules in `config.toml`.
 ```toml
 [module]
 [[module.imports]]
-path = "github.com/dnb-hugo/shortcodes/youtube"
+path = "github.com/dnb-org/shortcodes/youtube"
 ```
 
 The next time you run hugo it will download the latest version of the module.
@@ -25,7 +25,7 @@ The next time you run hugo it will download the latest version of the module.
 To update this module:
 
 ```shell script
-hugo mod get -u github.com/dnb-hugo/shortcodes
+hugo mod get -u github.com/dnb-org/shortcodes
 ```
 
 To update all modules:
@@ -63,7 +63,7 @@ Run `hugo server` in this module and a list of sample usages will be presented a
 
 #### Resources
 
-If you are not using the dnb-hugo asset dropin configuration you need to add JavaScript and SCSS files to your Hugo pipes:
+If you are not using the dnb-org asset dropin configuration you need to add JavaScript and SCSS files to your Hugo pipes:
 
 - `libs/liteyoutube/lite-yt-embed.js`
 - `libs/liteyoutube/lite-yt-embed.scss`
