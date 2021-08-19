@@ -1,0 +1,5 @@
+{{- $apiKey := site.Params.dnb.exchangerates.api_key -}}
+{{- $exchangerateApiUrl := printf "http://api.exchangeratesapi.io/v1/latest?access_key=%s" $apiKey -}}
+{{- $exchangerates := getJSON $exchangerateApiUrl -}}
+
+{{- partial "debugprint" $exchangerates -}}
