@@ -7,7 +7,7 @@
     "url": "https://github.com/dnb-org/shortcodes/issues"
   },
   "devDependencies": {
-    "@dnb-org/remark-config": "3.2.18",
+    "@dnb-org/remark-config": "3.2.22",
     "@dnb-org/standard-version-config": "3.2.8",
     "@slightlyoff/lite-vimeo": "0.1.2",
     "standard-version": "9.3.1"
