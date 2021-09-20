@@ -1,5 +1,6 @@
 {{ $gallery := .Get "gallery" | default "gallery" }}
-{{ $galleryid := .Get "id" | default (partial "func/getRandomString" (dict "limit" 8) ) }}
+{{ $randomId := partial "func/getRandomString" (dict "limit" 8) }}
+{{ $galleryid := .Get "id" | default $randomId }}
 {{ $images := $.Page.Resources.Match (printf "%s/*" $gallery) }}
 <div
     id="g{{ $galleryid }}"
