@@ -2,6 +2,53 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.13](https://github.com/dnb-org/shortcodes/compare/all/v1.0.12...all/v1.0.13) (2021-09-20)
+
+
+### Bug Fixes
+
+* broken creation of randomstring ([d48a6f6](https://github.com/dnb-org/shortcodes/commit/d48a6f66c9c3f975a8b284547843a5ec8dbc54d2))
+* **config:** wrong module tag names in package.json ([c5edc9e](https://github.com/dnb-org/shortcodes/commit/c5edc9e9eaf0c245629956ace6254dd617c58855))
+* gallery shortcode with new getRandomString format ([62f1796](https://github.com/dnb-org/shortcodes/commit/62f1796a229f4651cec05db795cd20ff8ea62ad2))
+
+
+### Chore
+
+* add exchange rates shortcode ([d2e8ca2](https://github.com/dnb-org/shortcodes/commit/d2e8ca2222a443d712fce5f643d3379851ebcd3f))
+* **deps-dev:** bump @dnb-org/remark-config from 3.1.0 to 3.2.0 in /all ([#67](https://github.com/dnb-org/shortcodes/issues/67)) ([a320bea](https://github.com/dnb-org/shortcodes/commit/a320bea9d5cfbc41b8b31d45f856de6282292a87))
+* **deps-dev:** bump @dnb-org/remark-config from 3.2.0 to 3.2.8 in /all ([#74](https://github.com/dnb-org/shortcodes/issues/74)) ([dc5178d](https://github.com/dnb-org/shortcodes/commit/dc5178dfff17f0483c66a356c3cfc3247b10e911))
+* **deps-dev:** bump @dnb-org/remark-config from 3.2.8 to 3.2.9 in /all ([#81](https://github.com/dnb-org/shortcodes/issues/81)) ([6f3e75d](https://github.com/dnb-org/shortcodes/commit/6f3e75d2ae18fe6135af8f3d51efeded628f6e9d))
+* **deps-dev:** bump @dnb-org/remark-config in /all ([#85](https://github.com/dnb-org/shortcodes/issues/85)) ([7222f01](https://github.com/dnb-org/shortcodes/commit/7222f01c997fba6337a563f588bcc7e4d57390d8))
+* **deps-dev:** bump @dnb-org/remark-config in /collection ([#63](https://github.com/dnb-org/shortcodes/issues/63)) ([1cfbd58](https://github.com/dnb-org/shortcodes/commit/1cfbd5859718b66aea14d68b36089f1654412f70))
+* **deps-dev:** bump @dnb-org/remark-config in /collection ([#72](https://github.com/dnb-org/shortcodes/issues/72)) ([815a1fe](https://github.com/dnb-org/shortcodes/commit/815a1fefde7538ca46440e11a3764d0ed004fcd5))
+* **deps-dev:** bump @dnb-org/remark-config in /collection ([#80](https://github.com/dnb-org/shortcodes/issues/80)) ([a2181cd](https://github.com/dnb-org/shortcodes/commit/a2181cd729aa9ffb181d831a8d85d1f214b05e58))
+* **deps-dev:** bump @dnb-org/remark-config in /collection ([#84](https://github.com/dnb-org/shortcodes/issues/84)) ([e04bdfc](https://github.com/dnb-org/shortcodes/commit/e04bdfc611f95519d31492938ef0cecfc1fcb456))
+* **deps-dev:** bump @dnb-org/remark-config in /pictures ([#70](https://github.com/dnb-org/shortcodes/issues/70)) ([6fbb4ec](https://github.com/dnb-org/shortcodes/commit/6fbb4ecfb88e3f4cdc928ab37837f5cd83a27bf9))
+* **deps-dev:** bump @dnb-org/remark-config in /pictures ([#77](https://github.com/dnb-org/shortcodes/issues/77)) ([925db4f](https://github.com/dnb-org/shortcodes/commit/925db4f3317595369338bd90fe1f92a3aa9bf109))
+* **deps-dev:** bump @dnb-org/remark-config in /pictures ([#82](https://github.com/dnb-org/shortcodes/issues/82)) ([7e22863](https://github.com/dnb-org/shortcodes/commit/7e228630d3b36539eed4a7a21f27c5598b6b4e92))
+* **deps-dev:** bump @dnb-org/remark-config in /pictures ([#86](https://github.com/dnb-org/shortcodes/issues/86)) ([9480f4c](https://github.com/dnb-org/shortcodes/commit/9480f4c1b54757e903e7d5ca51280c4dc2212610))
+* **deps-dev:** bump @dnb-org/remark-config in /youtube ([#68](https://github.com/dnb-org/shortcodes/issues/68)) ([daf281c](https://github.com/dnb-org/shortcodes/commit/daf281cce7b0d051b1a9a9c2e4d61b0a5317275b))
+* **deps-dev:** bump @dnb-org/remark-config in /youtube ([#75](https://github.com/dnb-org/shortcodes/issues/75)) ([fa2f129](https://github.com/dnb-org/shortcodes/commit/fa2f12924d89d330108c6da6c2f229025e259b78))
+* **deps-dev:** bump @dnb-org/remark-config in /youtube ([#79](https://github.com/dnb-org/shortcodes/issues/79)) ([65ad827](https://github.com/dnb-org/shortcodes/commit/65ad82778d6053c2d337f7cd0d588bb1cb071872))
+* **deps-dev:** bump @dnb-org/remark-config in /youtube ([#83](https://github.com/dnb-org/shortcodes/issues/83)) ([f895a24](https://github.com/dnb-org/shortcodes/commit/f895a249a9354b2a8dc3ad9f7c4606c1b8776687))
+* **deps-dev:** bump @dnb-org/standard-version-config in /all ([#66](https://github.com/dnb-org/shortcodes/issues/66)) ([196d849](https://github.com/dnb-org/shortcodes/commit/196d84925a082edc4edad952e80b8749b13a2dc0))
+* **deps-dev:** bump @dnb-org/standard-version-config in /all ([#76](https://github.com/dnb-org/shortcodes/issues/76)) ([c7e34dd](https://github.com/dnb-org/shortcodes/commit/c7e34dd981da9623fd75cac7a753aae6d66541ac))
+* **deps-dev:** bump @dnb-org/standard-version-config in /collection ([#64](https://github.com/dnb-org/shortcodes/issues/64)) ([e818395](https://github.com/dnb-org/shortcodes/commit/e81839505c06a7d74e817509d26f37ee67e365b1))
+* **deps-dev:** bump @dnb-org/standard-version-config in /collection ([#71](https://github.com/dnb-org/shortcodes/issues/71)) ([5024529](https://github.com/dnb-org/shortcodes/commit/5024529d7e7578a31d04d04ea827bbd3939d4c67))
+* **deps-dev:** bump @dnb-org/standard-version-config in /pictures ([#69](https://github.com/dnb-org/shortcodes/issues/69)) ([2b0b32a](https://github.com/dnb-org/shortcodes/commit/2b0b32a7c0c1ebd071b073cf091449d74fa0b2df))
+* **deps-dev:** bump @dnb-org/standard-version-config in /pictures ([#78](https://github.com/dnb-org/shortcodes/issues/78)) ([2b0cfd9](https://github.com/dnb-org/shortcodes/commit/2b0cfd9c731ebccbca87a400d7fc4c9bd34e44f3))
+* **deps-dev:** bump @dnb-org/standard-version-config in /youtube ([#65](https://github.com/dnb-org/shortcodes/issues/65)) ([ff6a716](https://github.com/dnb-org/shortcodes/commit/ff6a716e816a4b675deb718b9d067ad5dcfa3ee1))
+* **deps-dev:** bump @dnb-org/standard-version-config in /youtube ([#73](https://github.com/dnb-org/shortcodes/issues/73)) ([833fe97](https://github.com/dnb-org/shortcodes/commit/833fe97386695b56597129f5df9e4b7a6d9936e3))
+* **deps-dev:** bump standard-version in /collection ([#60](https://github.com/dnb-org/shortcodes/issues/60)) ([fac3314](https://github.com/dnb-org/shortcodes/commit/fac331410d94b3e08e47d7057ab28a3af22b1717))
+* **deps-dev:** update @dnb-org/remark-config requirement in /pictures ([#61](https://github.com/dnb-org/shortcodes/issues/61)) ([4951220](https://github.com/dnb-org/shortcodes/commit/495122050161cd3791ae288ed9a02e3ebfc6102c))
+* **deps-dev:** update @dnb-org/standard-version-config requirement ([#62](https://github.com/dnb-org/shortcodes/issues/62)) ([66ef73a](https://github.com/dnb-org/shortcodes/commit/66ef73ae94cb41c273124fbb4d4ab995e25ca4b9))
+* **deps:** update dependencies ([a381941](https://github.com/dnb-org/shortcodes/commit/a3819417ec3d366638c6a39e3b3ff15fa03b1b24))
+* recent changes ([1a5dfb6](https://github.com/dnb-org/shortcodes/commit/1a5dfb6f796d8bfed4994169a51917ec827277e2))
+* **release:** collection/v1.4.18 ([46e9b84](https://github.com/dnb-org/shortcodes/commit/46e9b844b7847b747e6da349ea37d001d7e22ec2))
+* **release:** pictures/v0.0.10 ([4aed809](https://github.com/dnb-org/shortcodes/commit/4aed80994be1fc9b18327d71f3e8b8b90a6b371f))
+* remove .idea directory ([323d1f4](https://github.com/dnb-org/shortcodes/commit/323d1f4b2aabc90d7c47547ed7f071722aee1035))
+* update file rights ([6790d48](https://github.com/dnb-org/shortcodes/commit/6790d481f66c4d0fdcbf2bdb02922f4b789576d1))
+
 ### [1.0.12](https://github.com/dnb-hugo/shortcodes/compare/all/v1.0.11...all/v1.0.12) (2021-07-14)
 
 
