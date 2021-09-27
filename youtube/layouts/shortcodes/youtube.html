@@ -30,7 +30,7 @@ see
             playlabel="{{ . }}"{{ end }}
             params="{{ $params }}"
             style="background-image: url('https://i.ytimg.com/vi/{{ $id }}/hqdefault.jpg');">
-            <button type="button" class="lty-playbtn">
+            <button type="button" class="lty-playbtn" aria-label="Play video">
                 {{ with $title }}<span class="lyt-visually-hidden">{{ . }}</span>{{ end }}
             </button>
         </lite-youtube>
