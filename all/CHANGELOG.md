@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.14](https://github.com/dnb-org/shortcodes/compare/all/v1.0.13...all/v1.0.14) (2021-09-27)
+
+
+### Bug Fixes
+
+* add aria label to play button ([02b985c](https://github.com/dnb-org/shortcodes/commit/02b985cd2a36de8aa0077505da439090369fd4f9))
+
+
+### Chore
+
+* **deps-dev:** bump @dnb-org/remark-config in /all ([#98](https://github.com/dnb-org/shortcodes/issues/98)) ([fecac4a](https://github.com/dnb-org/shortcodes/commit/fecac4aaf216e78a335f874aafcd90e5c3b0a963))
+* **deps-dev:** bump @dnb-org/remark-config in /collection ([#97](https://github.com/dnb-org/shortcodes/issues/97)) ([3975aef](https://github.com/dnb-org/shortcodes/commit/3975aef1eb8b8417018e017dd347f3d74dbbb105))
+* **deps-dev:** bump @dnb-org/remark-config in /pictures ([#99](https://github.com/dnb-org/shortcodes/issues/99)) ([4003af8](https://github.com/dnb-org/shortcodes/commit/4003af886bfe9ebc4c68aea797b155d711b67f9b))
+* **deps-dev:** bump @dnb-org/remark-config in /youtube ([#96](https://github.com/dnb-org/shortcodes/issues/96)) ([cc6ba29](https://github.com/dnb-org/shortcodes/commit/cc6ba295381fcb1cf175d5a504e8c9fa0814db80))
+* **deps:** update dependencies ([59388d9](https://github.com/dnb-org/shortcodes/commit/59388d9d0b42779272b16253678c7231e1df0df5))
+* **release:** youtube/v1.0.20 ([cd3f9da](https://github.com/dnb-org/shortcodes/commit/cd3f9da885798e4e0e3678d97915d55c403c4ed2))
+
 ### [1.0.13](https://github.com/dnb-org/shortcodes/compare/all/v1.0.12...all/v1.0.13) (2021-09-20)
 
 
