@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org-shortcodes/youtube",
   "description": "Youtube shortcode for Hugo",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-org/shortcodes/issues"
