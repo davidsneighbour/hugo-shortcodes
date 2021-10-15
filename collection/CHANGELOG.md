@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.19](https://github.com/dnb-org/shortcodes/compare/collection/v1.4.18...collection/v1.4.19) (2021-10-15)
+
+
+### Bug Fixes
+
+* add aria label to play button ([02b985c](https://github.com/dnb-org/shortcodes/commit/02b985cd2a36de8aa0077505da439090369fd4f9))
+
+
+### Chore
+
+* **deps-dev:** bump @dnb-org/remark-config in /all ([#98](https://github.com/dnb-org/shortcodes/issues/98)) ([fecac4a](https://github.com/dnb-org/shortcodes/commit/fecac4aaf216e78a335f874aafcd90e5c3b0a963))
+* **deps-dev:** bump @dnb-org/remark-config in /collection ([#97](https://github.com/dnb-org/shortcodes/issues/97)) ([3975aef](https://github.com/dnb-org/shortcodes/commit/3975aef1eb8b8417018e017dd347f3d74dbbb105))
+* **deps-dev:** bump @dnb-org/remark-config in /pictures ([#99](https://github.com/dnb-org/shortcodes/issues/99)) ([4003af8](https://github.com/dnb-org/shortcodes/commit/4003af886bfe9ebc4c68aea797b155d711b67f9b))
+* **deps-dev:** bump @dnb-org/remark-config in /youtube ([#96](https://github.com/dnb-org/shortcodes/issues/96)) ([cc6ba29](https://github.com/dnb-org/shortcodes/commit/cc6ba295381fcb1cf175d5a504e8c9fa0814db80))
+* **deps:** update dependencies ([f0d1cec](https://github.com/dnb-org/shortcodes/commit/f0d1cec859cd44b66829a64edd94b2acd6bada7f))
+* **deps:** update dependencies ([59388d9](https://github.com/dnb-org/shortcodes/commit/59388d9d0b42779272b16253678c7231e1df0df5))
+* **release:** all/v1.0.13 ([d396115](https://github.com/dnb-org/shortcodes/commit/d396115e4430545b0b58ced2be8d6858bceb0426))
+* **release:** all/v1.0.14 ([1e22af0](https://github.com/dnb-org/shortcodes/commit/1e22af057b00121e1aee22dbd6107abbbad6e85e))
+* **release:** exchangerates/v0.0.1 ([082fe5f](https://github.com/dnb-org/shortcodes/commit/082fe5f5a6ecde2fb327dea55dfe94d2d0654a9f))
+* **release:** pictures/v0.0.11 ([add070f](https://github.com/dnb-org/shortcodes/commit/add070f67df9b52a254f7a9e9f79e7093112b0a5))
+* **release:** youtube/v1.0.20 ([cd3f9da](https://github.com/dnb-org/shortcodes/commit/cd3f9da885798e4e0e3678d97915d55c403c4ed2))
+* **release:** youtube/v1.0.21 ([fd30e39](https://github.com/dnb-org/shortcodes/commit/fd30e39af7f373c692caba319b55ac3782cae1aa))
+
 ### [1.4.18](https://github.com/dnb-org/shortcodes/compare/collection/v1.4.17...collection/v1.4.18) (2021-09-20)
 
 
