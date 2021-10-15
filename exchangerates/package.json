@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org-shortcodes/exchangerates",
   "description": "Shortcodes for Gohugo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-org/shortcodes/issues"
