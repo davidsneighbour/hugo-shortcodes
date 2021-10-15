@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.21](https://github.com/dnb-org/shortcodes/compare/youtube/v1.0.20...youtube/v1.0.21) (2021-10-15)
+
+
+### Chore
+
+* **deps:** update dependencies ([f0d1cec](https://github.com/dnb-org/shortcodes/commit/f0d1cec859cd44b66829a64edd94b2acd6bada7f))
+* **release:** all/v1.0.14 ([1e22af0](https://github.com/dnb-org/shortcodes/commit/1e22af057b00121e1aee22dbd6107abbbad6e85e))
+
 ### [1.0.20](https://github.com/dnb-org/shortcodes/compare/youtube/v1.0.19...youtube/v1.0.20) (2021-09-27)
 
 
