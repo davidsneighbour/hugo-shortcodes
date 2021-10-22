@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@dnb-org/remark-config": "3.3.3",
-    "@dnb-org/standard-version-config": "3.3.0",
+    "@dnb-org/standard-version-config": "3.3.7",
     "@slightlyoff/lite-vimeo": "0.1.2",
     "standard-version": "9.3.1"
   },
