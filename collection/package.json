@@ -10,7 +10,7 @@
     "@dnb-org/remark-config": "3.3.3",
     "@dnb-org/standard-version-config": "3.3.0",
     "@slightlyoff/lite-vimeo": "0.1.2",
-    "standard-version": "9.3.1"
+    "standard-version": "9.3.2"
   },
   "homepage": "https://github.com/dnb-org/shortcodes",
   "license": "MIT",
