@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/dnb-org/shortcodes/compare/pictures/v0.0.11...pictures/v0.0.12) (2021-10-29)
+
+
+### Chore
+
+* **deps:** update dependencies ([1ddef11](https://github.com/dnb-org/shortcodes/commit/1ddef115485673d5bf22724bdd0da4d3deb73b9b))
+* **deps:** update dependencies ([f8814b6](https://github.com/dnb-org/shortcodes/commit/f8814b616e860dabaf412b940ba27b8c3780a00c))
+* **release:** all/v1.0.15 ([5b89f21](https://github.com/dnb-org/shortcodes/commit/5b89f214864ea8f062c398a35593ad42080a584e))
+* **release:** collection/v1.4.19 ([92e8c3e](https://github.com/dnb-org/shortcodes/commit/92e8c3e3f4141ea3a398f7f7033ef745aaf6337f))
+* **release:** exchangerates/v0.0.1 ([082fe5f](https://github.com/dnb-org/shortcodes/commit/082fe5f5a6ecde2fb327dea55dfe94d2d0654a9f))
+* **release:** youtube/v1.0.22 ([c3013c6](https://github.com/dnb-org/shortcodes/commit/c3013c68350b36556843bee703144cd650a844a8))
+
 ### [0.0.11](https://github.com/dnb-org/shortcodes/compare/pictures/v0.0.5...pictures/v0.0.11) (2021-10-15)
 
 
