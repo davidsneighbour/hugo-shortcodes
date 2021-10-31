@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.17](https://github.com/dnb-org/shortcodes/compare/all/v1.0.16...all/v1.0.17) (2021-10-31)
+
+
+### Features
+
+* **shortcode:** config tabs, showing config translation ([8edb346](https://github.com/dnb-org/shortcodes/commit/8edb346a5c094e6c66af45947088f23d2705b11e))
+
+
+### Chore
+
+* **release:** collection/v1.4.21 ([c71a112](https://github.com/dnb-org/shortcodes/commit/c71a11257b91e1ccb86721077e690783fe24ee05))
+
 ### [1.0.16](https://github.com/dnb-org/shortcodes/compare/all/v1.0.15...all/v1.0.16) (2021-10-29)
 
 

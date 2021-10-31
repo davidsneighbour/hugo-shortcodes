@@ -1,5 +1,5 @@
-github.com/dnb-org/shortcodes/collection v1.4.20 h1:52VLoiywtjgv2bksOTWH5lC41se3h9zQWQVQSWtuuP0=
-github.com/dnb-org/shortcodes/collection v1.4.20/go.mod h1:jY4DOilX3w3F/NIuVyqLIumMK1f8gPpXCIQxutZM0Kg=
+github.com/dnb-org/shortcodes/collection v1.4.21 h1:Ptce3e7TEGFXQRNzeYxURUTw9ju4SiAldgZX2o074y0=
+github.com/dnb-org/shortcodes/collection v1.4.21/go.mod h1:jY4DOilX3w3F/NIuVyqLIumMK1f8gPpXCIQxutZM0Kg=
 github.com/dnb-org/shortcodes/youtube v1.4.16 h1:srA1K+TW/Yd8IxvQPN4uARDLMd8m2zS78oi5Sa/IG3Q=
 github.com/dnb-org/shortcodes/youtube v1.4.16/go.mod h1:zuuEmKods4+g66Q0CI4zJ6R716ZNs29ZkPfCJnrlKA8=
 github.com/paulirish/lite-youtube-embed v0.2.0/go.mod h1:9nuUWCzbFF/vvl3ClpZ1KsYFi/hlKjVOkmG8E+nsGDY=
