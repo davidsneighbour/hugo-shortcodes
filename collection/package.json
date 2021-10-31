@@ -7,10 +7,8 @@
     "url": "https://github.com/dnb-org/shortcodes/issues"
   },
   "devDependencies": {
-    "@dnb-org/remark-config": "3.3.8",
     "@dnb-org/standard-version-config": "3.3.7",
-    "@slightlyoff/lite-vimeo": "0.1.2",
-    "standard-version": "9.3.2"
+    "@slightlyoff/lite-vimeo": "0.1.2"
   },
   "homepage": "https://github.com/dnb-org/shortcodes",
   "license": "MIT",
@@ -18,7 +16,6 @@
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"collection/v\" --releaseCommitMessageFormat \"chore(release): collection/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"collection/v\" --releaseCommitMessageFormat \"chore(release): collection/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"collection/v\" --releaseCommitMessageFormat \"chore(release): collection/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "remark": "remark"
+    "release-next": "standard-version --release-as minor -a -t \"collection/v\" --releaseCommitMessageFormat \"chore(release): collection/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   }
 }

@@ -7,7 +7,6 @@
     "url": "https://github.com/dnb-org/shortcodes/issues"
   },
   "devDependencies": {
-    "@dnb-org/remark-config": "3.3.8",
     "@dnb-org/standard-version-config": "3.3.7"
   },
   "homepage": "https://github.com/dnb-org/shortcodes",
@@ -16,7 +15,6 @@
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"all/v\" --releaseCommitMessageFormat \"chore(release): all/v{{currentTag}}\" && git push --follow-tags origin main",
     "release-major": "standard-version --release-as major -a -t \"all/v\" --releaseCommitMessageFormat \"chore(release): all/v{{currentTag}}\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"all/v\" --releaseCommitMessageFormat \"chore(release): all/v{{currentTag}}\" && git push --follow-tags origin main",
-    "remark": "remark"
+    "release-next": "standard-version --release-as minor -a -t \"all/v\" --releaseCommitMessageFormat \"chore(release): all/v{{currentTag}}\" && git push --follow-tags origin main"
   }
 }
