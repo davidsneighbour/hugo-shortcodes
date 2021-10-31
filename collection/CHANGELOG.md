@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.21](https://github.com/dnb-org/shortcodes/compare/collection/v1.4.20...collection/v1.4.21) (2021-10-31)
+
+
+### Features
+
+* **shortcode:** config tabs, showing config translation ([8edb346](https://github.com/dnb-org/shortcodes/commit/8edb346a5c094e6c66af45947088f23d2705b11e))
+
+
+### Chore
+
+* **deps:** update dependencies ([056f81e](https://github.com/dnb-org/shortcodes/commit/056f81e1d5034ed5a8a8ce95201bff7431671ef2))
+* **deps:** update dependencies ([acf961f](https://github.com/dnb-org/shortcodes/commit/acf961f830d0fb925e39f546b9acd5a710d3664c))
+* **release:** all/v1.0.16 ([51e996a](https://github.com/dnb-org/shortcodes/commit/51e996a9e59371946877b558ca8acdac5401b90d))
+* **release:** exchangerates/v0.0.2 ([0550a6b](https://github.com/dnb-org/shortcodes/commit/0550a6bbadd2028849d2d9cafca7f2548c9a2cf6))
+
 ### [1.4.20](https://github.com/dnb-org/shortcodes/compare/collection/v1.4.19...collection/v1.4.20) (2021-10-29)
 
 
