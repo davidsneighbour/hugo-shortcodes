@@ -41,3 +41,10 @@ hugo mod get -u
 To override shortcodes just add a file in your own shortcode directory with the name of the shortcode that you want to replace.
 
 [Read more about theme components](https://gohugo.io/themes/theme-components/).
+
+## Used By
+
+This component is used by the following websites and tools:
+
+- [kollitsch.de](https://kollitsch.de)
+- [davids-neighbour.com](https://davids-neighbour.com)
