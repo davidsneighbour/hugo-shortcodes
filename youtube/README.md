@@ -1,8 +1,8 @@
-## DNB Hugo - Youtube Shortcode
+# DNB Hugo - Youtube Shortcode
 
-A responsive and very fast shortcode to add youtube videos to your Hugo website. 
+A responsive and very fast shortcode to add youtube videos to your Hugo website.
 
-### Installing
+## Installing
 
 Step 0.5: enable modules in your own repository if not already done so.
 
@@ -20,7 +20,7 @@ path = "github.com/dnb-org/shortcodes/youtube"
 
 The next time you run hugo it will download the latest version of the module.
 
-### Updating
+## Updating
 
 To update this module:
 
@@ -34,13 +34,13 @@ To update all modules:
 hugo mod get -u
 ```
 
-### Overriding shortcodes
+## Overriding shortcodes
 
 To override shortcodes just add a file in your own shortcode directory with the name of the shortcode that you want to replace.
 
 [Read more about theme components](https://gohugo.io/themes/theme-components/).
 
-### Usage
+## Usage
 
 This shortcode replaces the internal `youtube` shortcode and adds an unobtrusive, privacy conscious and unbloated custom element for YouTube videos. It uses [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed).
 
@@ -52,7 +52,7 @@ This shortcode replaces the internal `youtube` shortcode and adds an unobtrusive
 
 Run `hugo server` in this module and a list of sample usages will be presented at [http://localhost:1313](http://localhost:1313)
 
-#### Parameters
+### Parameters
 
 | parameter | default | notes |
 | --- | --- | --- |
@@ -61,7 +61,7 @@ Run `hugo server` in this module and a list of sample usages will be presented a
 | *params* |  | [custom parameters](https://developers.google.com/youtube/player_parameters#Parameters) to be added to influence the display and functionality of the player. These parameters should be URLized. |
 | *title* |  | title of the video, will be displayed as banner on top of the preview image |
 
-#### Resources
+### Resources
 
 If you are not using the dnb-org asset dropin configuration you need to add JavaScript and SCSS files to your Hugo pipes:
 
