@@ -12,10 +12,10 @@
     "har-validator": "^5.1.5"
   },
   "devDependencies": {
-    "@dnb-org/cypress-config": "^3.4.1",
-    "@dnb-org/eslint-config": "^3.4.12",
-    "@dnb-org/prettier-config": "^3.4.2",
-    "@dnb-org/standard-version-config": "^3.3.7",
+    "@dnb-org/cypress-config": "^3.4.2",
+    "@dnb-org/eslint-config": "^3.4.14",
+    "@dnb-org/prettier-config": "^3.4.3",
+    "@dnb-org/standard-version-config": "^3.4.0",
     "@dnb-org/tools": "^3.4.0",
     "bootstrap": "^5.1.3"
   },
