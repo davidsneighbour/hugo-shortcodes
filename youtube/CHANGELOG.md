@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.23](https://github.com/dnb-org/shortcodes/compare/youtube/v1.0.22...youtube/v1.0.23) (2021-12-25)
+
+
+### Features
+
+* add youtube partial for use in templates ([4f373f2](https://github.com/dnb-org/shortcodes/commit/4f373f2afc0b412167a20e582cc59ec7f765c651))
+* **pictures:** adding some stuff to the (unfinished) pictures module ([9d790a4](https://github.com/dnb-org/shortcodes/commit/9d790a48d97dde8a1196ac96f26756c4b5c986ff))
+* **shortcode:** config tabs, showing config translation ([8edb346](https://github.com/dnb-org/shortcodes/commit/8edb346a5c094e6c66af45947088f23d2705b11e))
+
+
+### Build System
+
+* add development server setup ([86b7f80](https://github.com/dnb-org/shortcodes/commit/86b7f80baa4e12d4705e9d55d9931ae51a95c85c))
+
+
+### Documentation
+
+* fix markdown lint errors ([00f4bbe](https://github.com/dnb-org/shortcodes/commit/00f4bbe5e5924d63b0dbfb24ecfeca8b41cf5b47))
+
+
+### Chore
+
+* **config:** add pictures component ([cdfd8f0](https://github.com/dnb-org/shortcodes/commit/cdfd8f045539bb2ccb4e0573481e2958b1adf473))
+* **config:** remove IntelliJ configuration ([608c5ff](https://github.com/dnb-org/shortcodes/commit/608c5ffe7d8a171ea587e9ece1e2c0d073d6e671))
+* **config:** remove remark configuration ([23750d4](https://github.com/dnb-org/shortcodes/commit/23750d4c0f32aa098823d1aeff51c39df88065e4))
+* **deps:** update dependencies ([5ec0451](https://github.com/dnb-org/shortcodes/commit/5ec04514ca2c936da1b52d8d931f8d8f6ca2aba9))
+* **deps:** update dependencies ([056f81e](https://github.com/dnb-org/shortcodes/commit/056f81e1d5034ed5a8a8ce95201bff7431671ef2))
+* **deps:** update dependencies ([acf961f](https://github.com/dnb-org/shortcodes/commit/acf961f830d0fb925e39f546b9acd5a710d3664c))
+* **deps:** update dependencies ([aea721c](https://github.com/dnb-org/shortcodes/commit/aea721c4a18d1b0c0cca1872161c3e441dea2e8b))
+* **deps:** update dependencies ([1ddef11](https://github.com/dnb-org/shortcodes/commit/1ddef115485673d5bf22724bdd0da4d3deb73b9b))
+* **release:** all/v1.0.16 ([51e996a](https://github.com/dnb-org/shortcodes/commit/51e996a9e59371946877b558ca8acdac5401b90d))
+* **release:** all/v1.0.17 ([19889a3](https://github.com/dnb-org/shortcodes/commit/19889a366e60c9ad894673a92260ce2e8742da86))
+* **release:** collection/v1.4.20 ([7e326f6](https://github.com/dnb-org/shortcodes/commit/7e326f622612d901a75354a461cd08ebf99935c3))
+* **release:** collection/v1.4.21 ([c71a112](https://github.com/dnb-org/shortcodes/commit/c71a11257b91e1ccb86721077e690783fe24ee05))
+* **release:** exchangerates/v0.0.2 ([0550a6b](https://github.com/dnb-org/shortcodes/commit/0550a6bbadd2028849d2d9cafca7f2548c9a2cf6))
+* **release:** pictures/v0.0.12 ([1fb3ff5](https://github.com/dnb-org/shortcodes/commit/1fb3ff5264dab300d4da6fb8b5c2ba4b00de24fd))
+
 ### [1.0.22](https://github.com/dnb-org/shortcodes/compare/youtube/v1.0.21...youtube/v1.0.22) (2021-10-29)
 
 
