@@ -1,4 +1,4 @@
-pygmentsUseClasses=true
+pygmentsUseClasses = true
 
 [module]
 
@@ -23,7 +23,7 @@ ignoreImports = false
 
 [[module.imports.mounts]]
 source = "src/lite-yt-embed.css"
-target = "assets/libs/liteyoutube/lite-yt-embed.scss"
+target = "assets/libs/liteyoutube/_lite-yt-embed.scss"
 
 [[module.imports.mounts]]
 source = "src/lite-yt-embed.css"
