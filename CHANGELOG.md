@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.23](https://github.com/dnb-org/dnb-hugo-shortcodes/compare/v1.4.22...v1.4.23) (2022-04-06)
+
+
+### Build System
+
+* remove release note from release script ([e20ab67](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/e20ab679d569c241543f80d806f0807e151d73bd))
+
+
+### Documentation
+
+* update README.md ([37b11c3](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/37b11c34b7b6a7bd70bd5f127da58468a6c71606))
+
+
+### Chore
+
+* **config:** update header images ([63fd3bb](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/63fd3bb642dca1cb3158091c0de2be315068d370))
+* update go version ([afb74de](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/afb74ded2c60a6c6d423c2b6eb0a0a6e17c74195))
+* update go.mod ([8d77b4c](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/8d77b4c2c6bed4b8c60c9f5364ddf137856a9763))
+
 ### [1.4.22](https://github.com/dnb-org/shortcodes/compare/v1.3.4...v1.4.22) (2021-12-29)
 
 
