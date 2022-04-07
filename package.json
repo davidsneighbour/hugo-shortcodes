@@ -1,5 +1,5 @@
 {
-  "name": "@dnb-org/dnb-hugo-shortcodes",
+  "name": "@davidsneighbour/hugo-shortcodes",
   "description": "Shortcodes for Hugo",
   "version": "1.4.23",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
