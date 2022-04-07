@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/dnb-org/dnb-hugo-shortcodes/compare/v1.4.23...v1.5.0) (2022-04-07)
+
+
+### Chore
+
+* updates and repo-renames ([c48576f](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/c48576fedabb02ad731313a14e80f4b9970ffcbd))
+
 ### [1.4.23](https://github.com/dnb-org/dnb-hugo-shortcodes/compare/v1.4.22...v1.4.23) (2022-04-06)
 
 
