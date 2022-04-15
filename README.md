@@ -5,7 +5,7 @@
 
 <!--- CARD END --->
 
-# DNB GoHugo Component / Shortcodes
+# David's Neighbour GoHugo Component / Shortcodes
 
 Shortcodes I use in multiple themes for my Hugo websites.
 
@@ -22,7 +22,7 @@ Step 1: add the module to your required modules in `config.toml`.
 ```toml
 [module]
 [[module.imports]]
-path = "github.com/dnb-org/shortcodes"
+path = "github.com/davidsneighbour/hugo-shortcodes"
 ```
 
 The next time you run hugo it will download the latest version of the module.
@@ -34,7 +34,7 @@ This module adds a documentation on development environments under [http://local
 To update this module:
 
 ```shell script
-hugo mod get -u github.com/dnb-org/shortcodes
+hugo mod get -u github.com/davidsneighbour/hugo-shortcodes
 ```
 
 To update all modules:
