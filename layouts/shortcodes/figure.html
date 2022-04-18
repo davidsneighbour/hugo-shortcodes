@@ -34,7 +34,7 @@ Tagvariants:
 {{ $position := .Position }}
 {{ $paramSrc := false }}
 {{ $paramTitle := false }}
-{{ if ne .IsNamedParams }}
+{{ if .IsNamedParams }}
 	{{ $paramSrc = .Get 0 }}
 	{{ $paramTitle = .Get 1 }}
 {{ else }}
@@ -89,7 +89,7 @@ Tagvariants:
 			{{- end -}}
 		{{- end -}}
 	{{- end -}}
-	{{- if ne $image -}}
+	{{- if not $image -}}
 		{{- with $paramName -}}
 			{{- $image = $resources.GetMatch (printf "%s" .) -}}
 			{{- if $image -}}
@@ -113,11 +113,11 @@ Tagvariants:
 		{{ range $idx, $size := $imagesizes }}
 			{{ $resizedImage := (printf "%dx" $size | $image.Resize)}}
 			{{ $srcUrl := $resizedImage.RelPermalink }}
-			{{ if ne $idx }}
+			{{ if $idx }}
 				{{ $finalImage = merge $finalImage (dict "width" $resizedImage.Width) }}
 				{{ $finalImage = merge $finalImage (dict "height" $resizedImage.Height) }}
 			{{ end }}
-			{{ if ne $imgFallback }}
+			{{ if $imgFallback }}
 				{{ $imgFallback = $srcUrl }}
 			{{ end }}
 			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl $size) }}
@@ -132,7 +132,7 @@ Tagvariants:
 		{{ $finalImage = merge $finalImage (dict "width" $info.Width) }}
 		{{/******************************************************************/}}
 	{{ end }}
-	{{ if (and (ne $paramTitle) $cloneTitle) }}
+	{{ if (and (not $paramTitle) $cloneTitle) }}
 		{{ $finalImage = merge $finalImage (dict "title" $paramAlt) }}
 	{{ else if $paramTitle }}
 		{{ $finalImage = merge $finalImage (dict "title" $paramTitle) }}
