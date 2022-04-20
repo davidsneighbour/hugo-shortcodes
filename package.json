@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/hugo-shortcodes",
   "description": "Shortcodes for Hugo",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/davidsneighbour/hugo-shortcodes/issues"

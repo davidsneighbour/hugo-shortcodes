@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/dnb-org/dnb-hugo-shortcodes/compare/v1.5.0...v1.5.1) (2022-04-20)
+
+
+### Features
+
+* **fix:** use proper checks (not instead of ne) ([e7782fb](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/e7782fbe31585b85272696c7909ce7592a966f30))
+
+
+### Build System
+
+* update Github organization name & use newer NPM dependencies ([#126](https://github.com/dnb-org/dnb-hugo-shortcodes/issues/126)) ([3167742](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/3167742ad092c31d5df5006a60da9f180c3b632b))
+
+
+### Chore
+
+* **fix:** build scripts ([b618989](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/b618989f3c56b9f79c0d0edf4559ec41fdeda742))
+
 ## [1.5.0](https://github.com/davidsneighbour/hugo-shortcodes/compare/v1.4.23...v1.5.0) (2022-04-07)
 
 
