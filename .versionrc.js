@@ -1,2 +1,2 @@
-const defaultStandardVersion = require('@dnb-org/standard-version-config');
+const defaultStandardVersion = require('@davidsneighbour/standard-version-config');
 module.exports = defaultStandardVersion;

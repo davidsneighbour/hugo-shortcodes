@@ -4,13 +4,13 @@
   "version": "1.5.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnb-org/shortcodes/issues"
+    "url": "https://github.com/davidsneighbour/hugo-shortcodes/issues"
   },
   "devDependencies": {
-    "@dnb-org/standard-version-config": "3.4.0",
+    "@davidsneighbour/standard-version-config": "^4.0.1",
     "@slightlyoff/lite-vimeo": "0.1.2"
   },
-  "homepage": "https://github.com/dnb-org/shortcodes",
+  "homepage": "https://github.com/davidsneighbour/hugo-shortcodes",
   "license": "MIT",
   "private": true,
   "scripts": {
