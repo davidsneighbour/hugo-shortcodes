@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.2](https://github.com/dnb-org/dnb-hugo-shortcodes/compare/v1.5.1...v1.5.2) (2022-07-18)
+
+
+### Features
+
+* add age shortcode ([3f08fb4](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/3f08fb483397339d4d5f726490cbf3ffbf6001fc))
+
+
+### Chore
+
+* **deps:** move dependabot to monthly updates ([2cdf993](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/2cdf993d04ac1d355c2a974d2e9299ed3d6f186e))
+
+
+### Refactors
+
+* cleanup some spacing and formatting ([cf5e012](https://github.com/dnb-org/dnb-hugo-shortcodes/commit/cf5e012fc0866c43f9c55917561770570e6ef21f))
+
 ### [1.5.1](https://github.com/dnb-org/dnb-hugo-shortcodes/compare/v1.5.0...v1.5.1) (2022-04-20)
 
 
