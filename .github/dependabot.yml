@@ -7,7 +7,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/all/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
@@ -23,7 +23,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/collection/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
@@ -39,7 +39,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/pictures/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
@@ -55,7 +55,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/youtube/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
