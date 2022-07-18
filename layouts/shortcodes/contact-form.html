@@ -1,10 +1,12 @@
-{{/*
+{{/* - see https://formspree.io for documentation of form sending process */}}
 
-- see https://formspree.io for documentation of form sending process
-
-*/}}
-
-<form data-netlify="true" netlify-honeypot="makhfgr" method="post" name="kontakt" id="contact">
+<form
+  data-netlify="true"
+  netlify-honeypot="makhfgr"
+  method="post"
+  name="kontakt"
+  id="contact"
+>
   <div class="row">
     <div class="col-sm-6">
       <div class="form-group">
@@ -16,7 +18,7 @@
         <input class="form-control" name="_replyto" type="email">
       </div>
       <div data-netlify-recaptcha="true"></div>
-      <input type="text" name="makhfgr" class="d-none" />
+      <input type="text" name="makhfgr" class="d-none">
     </div>
     <div class="col-sm-6">
       <div class="form-group">
@@ -31,22 +33,26 @@
 </form>
 
 {{/*
-<div class="alert alert-success" role="alert" style="display:none;"><strong>Great!</strong> We have got your details and someone will be in touch.</div>
+<div class="alert alert-success" role="alert" style="display: none">
+  <strong>Great!</strong> We have got your details and someone will be in touch.
+</div>
 
 <script>
-jQuery(document).ready(function(){
-  jQuery('#contact').submit(function(event) {
-    jQuery.ajax({
-      dataType: "json",
-      method: "POST",
-      url: "//formspree.io/patrick@samui-samui.de",
-      data: jQuery( this ).serialize()
-    }).done(function(data) {
-      jQuery('#contact').remove();
-      jQuery('.alert').fadeIn();
+  jQuery(document).ready(function () {
+    jQuery("#contact").submit(function (event) {
+      jQuery
+        .ajax({
+          dataType: "json",
+          method: "POST",
+          url: "//formspree.io/patrick@samui-samui.de",
+          data: jQuery(this).serialize(),
+        })
+        .done(function (data) {
+          jQuery("#contact").remove();
+          jQuery(".alert").fadeIn();
+        });
+      event.preventDefault();
     });
-    event.preventDefault();
   });
-});
 </script>
 */}}

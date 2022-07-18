@@ -20,7 +20,7 @@
         {{- with $images -}}
             {{- range $index, $element := . -}}
                 <div class="carousel-item{{ if (eq $index 0) }} active{{ end }}">
-                    <img class="d-block w-100" src="{{ $element.RelPermalink }}" alt="{{ $element.Title }}" />
+                    <img class="d-block w-100" src="{{ $element.RelPermalink }}" alt="{{ $element.Title }}">
                 </div>
             {{- end -}}
         {{- end -}}
